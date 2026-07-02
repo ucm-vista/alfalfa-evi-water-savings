@@ -1,0 +1,2 @@
+input_csv_used,wy_min,wy_max,n_rows,n_unique_parcels,n_counties,cap_values_found,primary_cap_k,merged_cut_weather_master,predictor_cols_used_for_regressions,has_area_acres
+/home/jovyan/work/emery_method/reporting/evi_analysis/water_saving_scenarios_stats/late_cut_savings_parcel_year_acft.csv,2019,2024,10220,1791,10,0;1;2;3;4,1,/home/jovyan/work/emery_method/reporting/evi_analysis/Cutting_weather_stats/cut_weather_parcel_year_wide_WY2019-2024.csv,tmax_mean;et_cum_minET_to_last_cut_mm;late_et_mm;late_et_acft,True

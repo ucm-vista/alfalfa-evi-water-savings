@@ -1,0 +1,102 @@
+# Alfalfa EVI Cutting Detection & Water-Savings Analysis
+
+Reproducible code and final results for a remote-sensing analysis of alfalfa in the
+California Central Valley (10 counties, water years 2019–2024). The workflow:
+
+1. **Cutting detection** — detect alfalfa harvest events from HLS **EVI** time series
+   using **BEAST** (Bayesian Estimator of Abrupt change, Seasonality and Trend; the
+   `Rbeast` package) in a consensus/ensemble configuration.
+2. **ET correction** — correct **OpenET** actual-ET for off-phase (post-cutting) periods.
+3. **Water-savings simulation** — estimate irrigation water saved by delaying the last
+   summer cutting, per parcel-year, with sensitivity and strategy simulations.
+
+Core savings model (see `es_analysis/output/figures/water_savings_sim_2/model_specification.md`):
+`S = min(n_remove × e_cut, 0.55 × ET)`, cutoff date July 1; ~10,220 parcel-years,
+1,791 parcels, 10 counties.
+
+## Final selected outputs (in this repo)
+
+| Run | What it is |
+|-----|-----------|
+| `es_analysis/output/figures/alfalfa_run_6/` | Selected full analysis run — cuttings, ET-correction, water-savings tables + figures, WY-type stats, and 18 machine-readable `data/*.parquet`. |
+| `es_analysis/output/figures/water_savings_sim_2/` | Selected strategy/sensitivity simulation figures (Fig 5–9) + companion CSVs + 3 markdown method specs. |
+
+## Repository layout
+
+```
+es_analysis/            Python package
+  data_providers/       data loading/transform (config.py, beast_provider.py, et_provider.py, …)
+  charts/               ~70 plotting scripts (evi, beast, et_corrections, statistics, water_savings)
+  runners/              entrypoints (run_alfalfa_run_2.py = versioned master, run_water_savings_sim.py, …)
+  utils/                shared helpers (publication_style, units, run_output, …)
+  output/figures/       the two selected runs (everything else here is git-ignored)
+alfalfa_et_gdd5_pipeline.py   post-BEAST orchestrator (CLI: --action …)
+run_beast_parallel.py         BEAST ensemble runner (produces beast_outputs_new/)
+run_beast_remaining.py, repair_beast_alignment.py, compare_alignment_fix.py, plot_minmax_evi.py
+shapefile/              DWR i15 crop-mapping alfalfa parcels (public, bundled)
+docs/                   figure_documentation.md
+data/                   where external inputs go (see data/README.md)
+release_assets/         (git-ignored) staged intermediate-data bundle for Zenodo
+```
+
+## Install
+
+```bash
+conda env create -f environment.yml    # geospatial stack + pip deps
+conda activate alfalfa-evi
+# or: pip install -r requirements.txt   (needs system GDAL/PROJ)
+
+cp .env.example .env                    # then edit:
+#   OPENET_API_KEY_1=...   (only needed to re-download ET)
+#   WORK_ROOT=/home/jovyan/work         (root holding emery_method/, emery_method_2/, shapefile/)
+```
+
+All external paths resolve from `$WORK_ROOT` (default `/home/jovyan/work`) — no absolute
+paths are baked into the code, and no API key is stored in source.
+
+## Data
+
+- **Fast path (recommended)** — fetch the ~207 MB intermediate bundle (BEAST outputs +
+  county-year EVI exports + stat CSVs) from Zenodo:
+  ```bash
+  bash scripts/fetch_intermediate.sh    # fill in the URL after upload
+  ```
+  This lets you rerun the downstream analysis without the raw rebuild or the R/BEAST stage.
+- **Repo-only path** — the `water_savings_sim_2` figures regenerate from the committed
+  `alfalfa_run_6` outputs alone (no external data needed):
+  ```bash
+  python -m es_analysis.charts.water_savings.strategy_simulation
+  ```
+- **Full raw rebuild** — see [`data/README.md`](data/README.md) for provenance and how to
+  obtain EVI (1.7 GB), OpenET, Daymet (11 GB), and the DWR crop-mapping / parcel shapefiles.
+
+## Reproduce (three stages)
+
+```bash
+# 1. BEAST cutting detection  (slow; needs raw EVI + Rbeast). Skip if you fetched intermediates.
+python run_beast_parallel.py --max-concurrent 4 --n-jobs 32
+#    -> writes beast_outputs_new/<county>/beast_seasonal_cuts_WY####.csv
+
+# 2. Full analysis run  -> es_analysis/output/figures/alfalfa_run_6/
+python alfalfa_et_gdd5_pipeline.py --action run_versioned --run-name alfalfa_run_6 \
+       --et-mode actual --class-mode sji
+
+# 3. Simulation figures -> es_analysis/output/figures/water_savings_sim_2/
+python -m es_analysis.charts.water_savings.strategy_simulation
+python -m es_analysis.charts.water_savings.sensitivity_heatmap
+```
+
+## Notes
+
+- **BEAST/Rbeast**: `Rbeast`'s pip wheel bundles a compiled backend, so no separate R
+  install is required. `run_beast_parallel.py` runs BEAST per `(county, water-year)` with
+  auto-retry/backoff; it defaults to the `subproc` call mode to avoid native segfaults.
+- **Security**: the OpenET API key is read from `.env` / the environment only. If a key was
+  ever shared in the old repository, **rotate it**.
+- **Third-party material**: `Montazar et al. (2026)` is cited in the methods, not
+  redistributed.
+
+## Citation & license
+
+See [`CITATION.cff`](CITATION.cff) (Zenodo DOI added on release). Code is MIT
+([`LICENSE`](LICENSE)).

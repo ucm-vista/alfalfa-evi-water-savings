@@ -1,0 +1,20 @@
+# Conda environment for the alfalfa EVI / water-savings analysis.
+#   conda env create -f environment.yml
+#   conda activate alfalfa-evi
+#
+# Geospatial packages (GDAL/PROJ/GEOS-backed) install more reliably from
+# conda-forge; the pure-Python deps come from requirements.txt so versions
+# match the published results exactly.
+name: alfalfa-evi
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - geopandas=1.1.1
+  - shapely=2.1.1
+  - rasterio=1.4.3
+  - xarray=2025.8.0
+  - netCDF4=1.7.2
+  - pip
+  - pip:
+    - -r requirements.txt

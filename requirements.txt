@@ -1,0 +1,35 @@
+# Pinned dependencies for the alfalfa EVI / water-savings analysis.
+# Python 3.12 (see environment.yml for the conda-managed geospatial stack).
+# Versions match the environment that produced alfalfa_run_6 / water_savings_sim_2.
+
+# ── Core numerics / stats ──────────────────────────────────────────────
+numpy==1.26.4
+pandas==2.3.1
+scipy==1.16.0
+statsmodels==0.14.5
+scikit-learn==1.7.1
+pyarrow==20.0.0          # parquet I/O
+joblib==1.5.1            # parallel BEAST runs
+openpyxl==3.1.5          # .xlsx export/read
+
+# ── Change-point detection (alfalfa cutting events) ────────────────────
+# Rbeast's pip wheel bundles a compiled backend; no separate R install is
+# required to import it. (An R runtime is present on the source machine but
+# is not needed for this Python workflow.)
+Rbeast==0.1.23
+
+# ── Plotting ───────────────────────────────────────────────────────────
+matplotlib==3.10.3
+seaborn==0.13.2
+
+# ── Geospatial (parcel/county shapefiles, Daymet NetCDF) ───────────────
+#    Prefer conda for these (GDAL/PROJ/GEOS) — see environment.yml.
+geopandas==1.1.1
+shapely==2.1.1
+rasterio==1.4.3
+xarray==2025.8.0
+netCDF4==1.7.2
+
+# ── OpenET API + config ────────────────────────────────────────────────
+requests==2.32.4
+python-dotenv==1.1.1     # loads OPENET_API_KEY_1 / WORK_ROOT from .env

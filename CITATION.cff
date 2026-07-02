@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or the associated results, please cite it as below."
+title: "Alfalfa EVI cutting detection and water-savings analysis (Central Valley, CA)"
+type: software
+authors:
+  - family-names: Silberman
+    given-names: Eric
+    email: esilberman@ucmerced.edu
+    affiliation: University of California, Merced
+keywords:
+  - alfalfa
+  - EVI
+  - BEAST change-point detection
+  - evapotranspiration
+  - OpenET
+  - water savings
+  - remote sensing
+  - agriculture
+license: MIT
+version: "1.0.0"
+date-released: "2026-07-02"
+# doi: 10.5281/zenodo.XXXXXXX   # add after Zenodo release
+references:
+  - type: article
+    authors:
+      - family-names: Montazar
+    title: "Montazar et al. (2026) — alfalfa ET / cutting reference (cited, not redistributed)"
+    year: 2026

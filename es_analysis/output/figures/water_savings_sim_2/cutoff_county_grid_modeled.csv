@@ -1,0 +1,281 @@
+cutoff_idx,cutoff_label,county,county_idx,wy_type,mean_n_late,mean_savings_cap0_acft,mean_savings_cap1_acft,is_sparse
+0,Jul 1,San Joaquin,0,Critical,2,0.8892285096883379,0.4019241763164087,False
+0,Jul 1,San Joaquin,0,Dry,2,0.8764565163415563,0.41596400017648544,False
+0,Jul 1,San Joaquin,0,Above Normal,2,0.8405687800363237,0.26849686587430555,False
+0,Jul 1,San Joaquin,0,Wet,2,0.9266481280828811,0.42124429174161065,False
+1,Jul 16,San Joaquin,0,Critical,2,0.8892285096883379,0.4019241763164087,False
+1,Jul 16,San Joaquin,0,Dry,2,0.8764565163415563,0.41596400017648544,False
+1,Jul 16,San Joaquin,0,Above Normal,2,0.8405687800363237,0.26849686587430555,False
+1,Jul 16,San Joaquin,0,Wet,2,0.9266481280828811,0.42124429174161065,False
+2,Aug 1,San Joaquin,0,Critical,1,0.44461425484416894,0.0,False
+2,Aug 1,San Joaquin,0,Dry,1,0.43822825817077815,0.0,False
+2,Aug 1,San Joaquin,0,Above Normal,1,0.42028439001816187,0.0,False
+2,Aug 1,San Joaquin,0,Wet,1,0.46332406404144055,0.0,False
+3,Aug 16,San Joaquin,0,Critical,1,0.44461425484416894,0.0,False
+3,Aug 16,San Joaquin,0,Dry,1,0.43822825817077815,0.0,False
+3,Aug 16,San Joaquin,0,Above Normal,1,0.42028439001816187,0.0,False
+3,Aug 16,San Joaquin,0,Wet,1,0.46332406404144055,0.0,False
+4,Sep 1,San Joaquin,0,Critical,1,0.44461425484416894,0.0,False
+4,Sep 1,San Joaquin,0,Dry,1,0.43822825817077815,0.0,False
+4,Sep 1,San Joaquin,0,Above Normal,1,0.42028439001816187,0.0,False
+4,Sep 1,San Joaquin,0,Wet,1,0.46332406404144055,0.0,False
+5,Sep 16,San Joaquin,0,Critical,0,0.0,0.0,False
+5,Sep 16,San Joaquin,0,Dry,0,0.0,0.0,False
+5,Sep 16,San Joaquin,0,Above Normal,0,0.0,0.0,False
+5,Sep 16,San Joaquin,0,Wet,0,0.0,0.0,False
+6,Oct 1,San Joaquin,0,Critical,0,0.0,0.0,False
+6,Oct 1,San Joaquin,0,Dry,0,0.0,0.0,False
+6,Oct 1,San Joaquin,0,Above Normal,0,0.0,0.0,False
+6,Oct 1,San Joaquin,0,Wet,0,0.0,0.0,False
+0,Jul 1,Stanislaus,1,Critical,2,0.9490654187337172,0.43090241191578815,False
+0,Jul 1,Stanislaus,1,Dry,2,0.9354371468453423,0.4459462937398926,False
+0,Jul 1,Stanislaus,1,Above Normal,2,0.8971433727611853,0.28793304774114825,False
+0,Jul 1,Stanislaus,1,Wet,2,0.9889937775727523,0.4516042053415077,False
+1,Jul 16,Stanislaus,1,Critical,2,0.9490654187337172,0.43090241191578815,False
+1,Jul 16,Stanislaus,1,Dry,2,0.9354371468453423,0.4459462937398926,False
+1,Jul 16,Stanislaus,1,Above Normal,2,0.8971433727611853,0.28793304774114825,False
+1,Jul 16,Stanislaus,1,Wet,2,0.9889937775727523,0.4516042053415077,False
+2,Aug 1,Stanislaus,1,Critical,1,0.4745327093668586,0.0,False
+2,Aug 1,Stanislaus,1,Dry,1,0.46771857342267115,0.0,False
+2,Aug 1,Stanislaus,1,Above Normal,1,0.44857168638059264,0.0,False
+2,Aug 1,Stanislaus,1,Wet,1,0.49449688878637615,0.0,False
+3,Aug 16,Stanislaus,1,Critical,1,0.4745327093668586,0.0,False
+3,Aug 16,Stanislaus,1,Dry,1,0.46771857342267115,0.0,False
+3,Aug 16,Stanislaus,1,Above Normal,1,0.44857168638059264,0.0,False
+3,Aug 16,Stanislaus,1,Wet,1,0.49449688878637615,0.0,False
+4,Sep 1,Stanislaus,1,Critical,1,0.4745327093668586,0.0,False
+4,Sep 1,Stanislaus,1,Dry,1,0.46771857342267115,0.0,False
+4,Sep 1,Stanislaus,1,Above Normal,1,0.44857168638059264,0.0,False
+4,Sep 1,Stanislaus,1,Wet,1,0.49449688878637615,0.0,False
+5,Sep 16,Stanislaus,1,Critical,0,0.0,0.0,False
+5,Sep 16,Stanislaus,1,Dry,0,0.0,0.0,False
+5,Sep 16,Stanislaus,1,Above Normal,0,0.0,0.0,False
+5,Sep 16,Stanislaus,1,Wet,0,0.0,0.0,False
+6,Oct 1,Stanislaus,1,Critical,0,0.0,0.0,False
+6,Oct 1,Stanislaus,1,Dry,0,0.0,0.0,False
+6,Oct 1,Stanislaus,1,Above Normal,0,0.0,0.0,False
+6,Oct 1,Stanislaus,1,Wet,0,0.0,0.0,False
+0,Jul 1,Merced,2,Critical,2,1.060701766898316,0.485275883052548,False
+0,Jul 1,Merced,2,Dry,2,1.0454759557833966,0.5022037345386242,False
+0,Jul 1,Merced,2,Above Normal,2,1.0026932922249943,0.3244022340765723,False
+0,Jul 1,Merced,2,Wet,2,1.1053106252180904,0.5085701955646625,False
+1,Jul 16,Merced,2,Critical,2,1.060701766898316,0.485275883052548,False
+1,Jul 16,Merced,2,Dry,2,1.0454759557833966,0.5022037345386242,False
+1,Jul 16,Merced,2,Above Normal,2,1.0026932922249943,0.3244022340765723,False
+1,Jul 16,Merced,2,Wet,2,1.1053106252180904,0.5085701955646625,False
+2,Aug 1,Merced,2,Critical,1,0.530350883449158,0.0,False
+2,Aug 1,Merced,2,Dry,1,0.5227379778916983,0.0,False
+2,Aug 1,Merced,2,Above Normal,1,0.5013466461124971,0.0,False
+2,Aug 1,Merced,2,Wet,1,0.5526553126090452,0.0,False
+3,Aug 16,Merced,2,Critical,1,0.530350883449158,0.0,False
+3,Aug 16,Merced,2,Dry,1,0.5227379778916983,0.0,False
+3,Aug 16,Merced,2,Above Normal,1,0.5013466461124971,0.0,False
+3,Aug 16,Merced,2,Wet,1,0.5526553126090452,0.0,False
+4,Sep 1,Merced,2,Critical,1,0.530350883449158,0.0,False
+4,Sep 1,Merced,2,Dry,1,0.5227379778916983,0.0,False
+4,Sep 1,Merced,2,Above Normal,1,0.5013466461124971,0.0,False
+4,Sep 1,Merced,2,Wet,1,0.5526553126090452,0.0,False
+5,Sep 16,Merced,2,Critical,0,0.0,0.0,False
+5,Sep 16,Merced,2,Dry,0,0.0,0.0,False
+5,Sep 16,Merced,2,Above Normal,0,0.0,0.0,False
+5,Sep 16,Merced,2,Wet,0,0.0,0.0,False
+6,Oct 1,Merced,2,Critical,0,0.0,0.0,False
+6,Oct 1,Merced,2,Dry,0,0.0,0.0,False
+6,Oct 1,Merced,2,Above Normal,0,0.0,0.0,False
+6,Oct 1,Merced,2,Wet,0,0.0,0.0,False
+0,Jul 1,Madera,3,Critical,2,1.0506839556698382,0.4803809846465665,False
+0,Jul 1,Madera,3,Dry,2,1.0356015015050941,0.49713923430471985,False
+0,Jul 1,Madera,3,Above Normal,2,0.9932216534106321,0.3211191447624523,False
+0,Jul 1,Madera,3,Wet,2,1.0948728041897229,0.50344190912444,False
+1,Jul 16,Madera,3,Critical,2,1.0506839556698382,0.4803809846465665,False
+1,Jul 16,Madera,3,Dry,2,1.0356015015050941,0.49713923430471985,False
+1,Jul 16,Madera,3,Above Normal,2,0.9932216534106321,0.3211191447624523,False
+1,Jul 16,Madera,3,Wet,2,1.0948728041897229,0.50344190912444,False
+2,Aug 1,Madera,3,Critical,1,0.5253419778349191,0.0,False
+2,Aug 1,Madera,3,Dry,1,0.5178007507525471,0.0,False
+2,Aug 1,Madera,3,Above Normal,1,0.49661082670531603,0.0,False
+2,Aug 1,Madera,3,Wet,1,0.5474364020948614,0.0,False
+3,Aug 16,Madera,3,Critical,1,0.5253419778349191,0.0,False
+3,Aug 16,Madera,3,Dry,1,0.5178007507525471,0.0,False
+3,Aug 16,Madera,3,Above Normal,1,0.49661082670531603,0.0,False
+3,Aug 16,Madera,3,Wet,1,0.5474364020948614,0.0,False
+4,Sep 1,Madera,3,Critical,1,0.5253419778349191,0.0,False
+4,Sep 1,Madera,3,Dry,1,0.5178007507525471,0.0,False
+4,Sep 1,Madera,3,Above Normal,1,0.49661082670531603,0.0,False
+4,Sep 1,Madera,3,Wet,1,0.5474364020948614,0.0,False
+5,Sep 16,Madera,3,Critical,0,0.0,0.0,False
+5,Sep 16,Madera,3,Dry,0,0.0,0.0,False
+5,Sep 16,Madera,3,Above Normal,0,0.0,0.0,False
+5,Sep 16,Madera,3,Wet,0,0.0,0.0,False
+6,Oct 1,Madera,3,Critical,0,0.0,0.0,False
+6,Oct 1,Madera,3,Dry,0,0.0,0.0,False
+6,Oct 1,Madera,3,Above Normal,0,0.0,0.0,False
+6,Oct 1,Madera,3,Wet,0,0.0,0.0,False
+0,Jul 1,Fresno,4,Critical,2,1.044720795500451,0.5305734889673174,False
+0,Jul 1,Fresno,4,Dry,2,1.029723675390801,0.5490708432553894,False
+0,Jul 1,Fresno,4,Above Normal,2,0.9875836055348577,0.3547840875083555,False
+0,Jul 1,Fresno,4,Wet,2,1.0886596307537315,0.556027584650285,False
+1,Jul 16,Fresno,4,Critical,2,1.044720795500451,0.5305734889673174,False
+1,Jul 16,Fresno,4,Dry,2,1.029723675390801,0.5490708432553894,False
+1,Jul 16,Fresno,4,Above Normal,2,0.9875836055348577,0.3547840875083555,False
+1,Jul 16,Fresno,4,Wet,2,1.0886596307537315,0.556027584650285,False
+2,Aug 1,Fresno,4,Critical,2,1.044720795500451,0.5305734889673174,False
+2,Aug 1,Fresno,4,Dry,2,1.029723675390801,0.5490708432553894,False
+2,Aug 1,Fresno,4,Above Normal,2,0.9875836055348577,0.3547840875083555,False
+2,Aug 1,Fresno,4,Wet,2,1.0886596307537315,0.556027584650285,False
+3,Aug 16,Fresno,4,Critical,1,0.5223603977502255,0.0,False
+3,Aug 16,Fresno,4,Dry,1,0.5148618376954005,0.0,False
+3,Aug 16,Fresno,4,Above Normal,1,0.49379180276742884,0.0,False
+3,Aug 16,Fresno,4,Wet,1,0.5443298153768658,0.0,False
+4,Sep 1,Fresno,4,Critical,1,0.5223603977502255,0.0,False
+4,Sep 1,Fresno,4,Dry,1,0.5148618376954005,0.0,False
+4,Sep 1,Fresno,4,Above Normal,1,0.49379180276742884,0.0,False
+4,Sep 1,Fresno,4,Wet,1,0.5443298153768658,0.0,False
+5,Sep 16,Fresno,4,Critical,0,0.0,0.0,False
+5,Sep 16,Fresno,4,Dry,0,0.0,0.0,False
+5,Sep 16,Fresno,4,Above Normal,0,0.0,0.0,False
+5,Sep 16,Fresno,4,Wet,0,0.0,0.0,False
+6,Oct 1,Fresno,4,Critical,0,0.0,0.0,False
+6,Oct 1,Fresno,4,Dry,0,0.0,0.0,False
+6,Oct 1,Fresno,4,Above Normal,0,0.0,0.0,False
+6,Oct 1,Fresno,4,Wet,0,0.0,0.0,False
+0,Jul 1,Tulare,5,Critical,2,0.9976691774389745,0.5050981377118505,False
+0,Jul 1,Tulare,5,Dry,2,0.9833453757131789,0.522712804397127,False
+0,Jul 1,Tulare,5,Above Normal,2,0.9430972480116939,0.33769734810267693,False
+0,Jul 1,Tulare,5,Wet,2,1.0396353122454438,0.5293375724033155,False
+1,Jul 16,Tulare,5,Critical,2,0.9976691774389745,0.5050981377118505,False
+1,Jul 16,Tulare,5,Dry,2,0.9833453757131789,0.522712804397127,False
+1,Jul 16,Tulare,5,Above Normal,2,0.9430972480116939,0.33769734810267693,False
+1,Jul 16,Tulare,5,Wet,2,1.0396353122454438,0.5293375724033155,False
+2,Aug 1,Tulare,5,Critical,2,0.9976691774389745,0.5050981377118505,False
+2,Aug 1,Tulare,5,Dry,2,0.9833453757131789,0.522712804397127,False
+2,Aug 1,Tulare,5,Above Normal,2,0.9430972480116939,0.33769734810267693,False
+2,Aug 1,Tulare,5,Wet,2,1.0396353122454438,0.5293375724033155,False
+3,Aug 16,Tulare,5,Critical,1,0.49883458871948727,0.0,False
+3,Aug 16,Tulare,5,Dry,1,0.49167268785658946,0.0,False
+3,Aug 16,Tulare,5,Above Normal,1,0.47154862400584696,0.0,False
+3,Aug 16,Tulare,5,Wet,1,0.5198176561227219,0.0,False
+4,Sep 1,Tulare,5,Critical,1,0.49883458871948727,0.0,False
+4,Sep 1,Tulare,5,Dry,1,0.49167268785658946,0.0,False
+4,Sep 1,Tulare,5,Above Normal,1,0.47154862400584696,0.0,False
+4,Sep 1,Tulare,5,Wet,1,0.5198176561227219,0.0,False
+5,Sep 16,Tulare,5,Critical,0,0.0,0.0,False
+5,Sep 16,Tulare,5,Dry,0,0.0,0.0,False
+5,Sep 16,Tulare,5,Above Normal,0,0.0,0.0,False
+5,Sep 16,Tulare,5,Wet,0,0.0,0.0,False
+6,Oct 1,Tulare,5,Critical,0,0.0,0.0,False
+6,Oct 1,Tulare,5,Dry,0,0.0,0.0,False
+6,Oct 1,Tulare,5,Above Normal,0,0.0,0.0,False
+6,Oct 1,Tulare,5,Wet,0,0.0,0.0,False
+0,Jul 1,Kings,6,Critical,2,1.0416385338279852,0.5289023535028282,False
+0,Jul 1,Kings,6,Dry,2,1.0266855215202222,0.5473418051326676,False
+0,Jul 1,Kings,6,Above Normal,2,0.9846693891828908,0.35366322931460686,False
+0,Jul 1,Kings,6,Wet,2,1.0854481412410986,0.554276769693259,False
+1,Jul 16,Kings,6,Critical,2,1.0416385338279852,0.5289023535028282,False
+1,Jul 16,Kings,6,Dry,2,1.0266855215202222,0.5473418051326676,False
+1,Jul 16,Kings,6,Above Normal,2,0.9846693891828908,0.35366322931460686,False
+1,Jul 16,Kings,6,Wet,2,1.0854481412410986,0.554276769693259,False
+2,Aug 1,Kings,6,Critical,2,1.0416385338279852,0.5289023535028282,False
+2,Aug 1,Kings,6,Dry,2,1.0266855215202222,0.5473418051326676,False
+2,Aug 1,Kings,6,Above Normal,2,0.9846693891828908,0.35366322931460686,False
+2,Aug 1,Kings,6,Wet,2,1.0854481412410986,0.554276769693259,False
+3,Aug 16,Kings,6,Critical,1,0.5208192669139926,0.0,False
+3,Aug 16,Kings,6,Dry,1,0.5133427607601111,0.0,False
+3,Aug 16,Kings,6,Above Normal,1,0.4923346945914454,0.0,False
+3,Aug 16,Kings,6,Wet,1,0.5427240706205493,0.0,False
+4,Sep 1,Kings,6,Critical,1,0.5208192669139926,0.0,False
+4,Sep 1,Kings,6,Dry,1,0.5133427607601111,0.0,False
+4,Sep 1,Kings,6,Above Normal,1,0.4923346945914454,0.0,False
+4,Sep 1,Kings,6,Wet,1,0.5427240706205493,0.0,False
+5,Sep 16,Kings,6,Critical,0,0.0,0.0,False
+5,Sep 16,Kings,6,Dry,0,0.0,0.0,False
+5,Sep 16,Kings,6,Above Normal,0,0.0,0.0,False
+5,Sep 16,Kings,6,Wet,0,0.0,0.0,False
+6,Oct 1,Kings,6,Critical,0,0.0,0.0,False
+6,Oct 1,Kings,6,Dry,0,0.0,0.0,False
+6,Oct 1,Kings,6,Above Normal,0,0.0,0.0,False
+6,Oct 1,Kings,6,Wet,0,0.0,0.0,False
+0,Jul 1,Kern,7,Critical,3,0.990995192145866,0.5510889478339519,False
+0,Jul 1,Kern,7,Dry,3,0.9767668965296702,0.5702971359403937,False
+0,Jul 1,Kern,7,Above Normal,3,0.9367871292934463,0.3685441450607269,False
+0,Jul 1,Kern,7,Wet,3,1.0326815114154388,0.5775212175706621,False
+1,Jul 16,Kern,7,Critical,2,0.6606634614305773,0.27554447391697595,False
+1,Jul 16,Kern,7,Dry,2,0.6511779310197802,0.28514856797019683,False
+1,Jul 16,Kern,7,Above Normal,2,0.6245247528622976,0.18427207253036346,False
+1,Jul 16,Kern,7,Wet,2,0.6884543409436258,0.28876060878533105,False
+2,Aug 1,Kern,7,Critical,2,0.6606634614305773,0.27554447391697595,False
+2,Aug 1,Kern,7,Dry,2,0.6511779310197802,0.28514856797019683,False
+2,Aug 1,Kern,7,Above Normal,2,0.6245247528622976,0.18427207253036346,False
+2,Aug 1,Kern,7,Wet,2,0.6884543409436258,0.28876060878533105,False
+3,Aug 16,Kern,7,Critical,1,0.33033173071528865,0.0,False
+3,Aug 16,Kern,7,Dry,1,0.3255889655098901,0.0,False
+3,Aug 16,Kern,7,Above Normal,1,0.3122623764311488,0.0,False
+3,Aug 16,Kern,7,Wet,1,0.3442271704718129,0.0,False
+4,Sep 1,Kern,7,Critical,1,0.33033173071528865,0.0,False
+4,Sep 1,Kern,7,Dry,1,0.3255889655098901,0.0,False
+4,Sep 1,Kern,7,Above Normal,1,0.3122623764311488,0.0,False
+4,Sep 1,Kern,7,Wet,1,0.3442271704718129,0.0,False
+5,Sep 16,Kern,7,Critical,0,0.0,0.0,False
+5,Sep 16,Kern,7,Dry,0,0.0,0.0,False
+5,Sep 16,Kern,7,Above Normal,0,0.0,0.0,False
+5,Sep 16,Kern,7,Wet,0,0.0,0.0,False
+6,Oct 1,Kern,7,Critical,0,0.0,0.0,False
+6,Oct 1,Kern,7,Dry,0,0.0,0.0,False
+6,Oct 1,Kern,7,Above Normal,0,0.0,0.0,False
+6,Oct 1,Kern,7,Wet,0,0.0,0.0,False
+0,Jul 1,Riverside,8,Critical,3,1.716663191883417,1.1650944829075283,False
+0,Jul 1,Riverside,8,Dry,3,1.692050437136404,1.2055771597706624,False
+0,Jul 1,Riverside,8,Above Normal,3,1.6228916121884776,0.7803678120335243,False
+0,Jul 1,Riverside,8,Wet,3,1.7887740883789727,1.2208024460210078,False
+1,Jul 16,Riverside,8,Critical,3,1.716663191883417,1.1650944829075283,False
+1,Jul 16,Riverside,8,Dry,3,1.692050437136404,1.2055771597706624,False
+1,Jul 16,Riverside,8,Above Normal,3,1.6228916121884776,0.7803678120335243,False
+1,Jul 16,Riverside,8,Wet,3,1.7887740883789727,1.2208024460210078,False
+2,Aug 1,Riverside,8,Critical,2,1.144442127922278,0.5825472414537641,False
+2,Aug 1,Riverside,8,Dry,2,1.1280336247576026,0.6027885798853312,False
+2,Aug 1,Riverside,8,Above Normal,2,1.081927741458985,0.39018390601676217,False
+2,Aug 1,Riverside,8,Wet,2,1.192516058919315,0.6104012230105039,False
+3,Aug 16,Riverside,8,Critical,2,1.144442127922278,0.5825472414537641,False
+3,Aug 16,Riverside,8,Dry,2,1.1280336247576026,0.6027885798853312,False
+3,Aug 16,Riverside,8,Above Normal,2,1.081927741458985,0.39018390601676217,False
+3,Aug 16,Riverside,8,Wet,2,1.192516058919315,0.6104012230105039,False
+4,Sep 1,Riverside,8,Critical,1,0.572221063961139,0.0,False
+4,Sep 1,Riverside,8,Dry,1,0.5640168123788013,0.0,False
+4,Sep 1,Riverside,8,Above Normal,1,0.5409638707294925,0.0,False
+4,Sep 1,Riverside,8,Wet,1,0.5962580294596574,0.0,False
+5,Sep 16,Riverside,8,Critical,0,0.0,0.0,False
+5,Sep 16,Riverside,8,Dry,0,0.0,0.0,False
+5,Sep 16,Riverside,8,Above Normal,0,0.0,0.0,False
+5,Sep 16,Riverside,8,Wet,0,0.0,0.0,False
+6,Oct 1,Riverside,8,Critical,0,0.0,0.0,False
+6,Oct 1,Riverside,8,Dry,0,0.0,0.0,False
+6,Oct 1,Riverside,8,Above Normal,0,0.0,0.0,False
+6,Oct 1,Riverside,8,Wet,0,0.0,0.0,False
+0,Jul 1,Imperial,9,Critical,3,1.6591313639845107,1.1235392745897843,False
+0,Jul 1,Imperial,9,Dry,3,1.6353419015912376,1.1625821178331253,False
+0,Jul 1,Imperial,9,Above Normal,3,1.568496427276285,0.7524960465629066,False
+0,Jul 1,Imperial,9,Wet,3,1.7288301635686756,1.1772658914980176,False
+1,Jul 16,Imperial,9,Critical,3,1.6591313639845107,1.1235392745897843,False
+1,Jul 16,Imperial,9,Dry,3,1.6353419015912376,1.1625821178331253,False
+1,Jul 16,Imperial,9,Above Normal,3,1.568496427276285,0.7524960465629066,False
+1,Jul 16,Imperial,9,Wet,3,1.7288301635686756,1.1772658914980176,False
+2,Aug 1,Imperial,9,Critical,2,1.1060875759896738,0.5617696372948922,False
+2,Aug 1,Imperial,9,Dry,2,1.0902279343941583,0.5812910589165626,False
+2,Aug 1,Imperial,9,Above Normal,2,1.0456642848508566,0.3762480232814533,False
+2,Aug 1,Imperial,9,Wet,2,1.152553442379117,0.5886329457490088,False
+3,Aug 16,Imperial,9,Critical,2,1.1060875759896738,0.5617696372948922,False
+3,Aug 16,Imperial,9,Dry,2,1.0902279343941583,0.5812910589165626,False
+3,Aug 16,Imperial,9,Above Normal,2,1.0456642848508566,0.3762480232814533,False
+3,Aug 16,Imperial,9,Wet,2,1.152553442379117,0.5886329457490088,False
+4,Sep 1,Imperial,9,Critical,1,0.5530437879948369,0.0,False
+4,Sep 1,Imperial,9,Dry,1,0.5451139671970792,0.0,False
+4,Sep 1,Imperial,9,Above Normal,1,0.5228321424254283,0.0,False
+4,Sep 1,Imperial,9,Wet,1,0.5762767211895585,0.0,False
+5,Sep 16,Imperial,9,Critical,0,0.0,0.0,False
+5,Sep 16,Imperial,9,Dry,0,0.0,0.0,False
+5,Sep 16,Imperial,9,Above Normal,0,0.0,0.0,False
+5,Sep 16,Imperial,9,Wet,0,0.0,0.0,False
+6,Oct 1,Imperial,9,Critical,0,0.0,0.0,False
+6,Oct 1,Imperial,9,Dry,0,0.0,0.0,False
+6,Oct 1,Imperial,9,Above Normal,0,0.0,0.0,False
+6,Oct 1,Imperial,9,Wet,0,0.0,0.0,False

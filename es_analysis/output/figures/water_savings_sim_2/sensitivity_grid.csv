@@ -1,0 +1,1121 @@
+cap_k,wy_type,n_cuttings,et_bin_idx,et_bin_label,et_bin_center,mean_saved_mm,mean_saved_acft,mean_n_late,count,is_model,cell_type
+0,Critical,1,0,0–150,75,,,,1,True,infeasible
+0,Critical,1,1,150–300,225,,,,0,True,infeasible
+0,Critical,1,2,300–500,400,,,,0,True,infeasible
+0,Critical,1,3,500–700,600,,,,0,True,infeasible
+0,Critical,1,4,700–900,800,,,,0,True,infeasible
+0,Critical,1,5,900–1100,1000,,,,0,True,infeasible
+0,Critical,1,6,1100–1400,1250,,,,0,True,infeasible
+0,Critical,1,7,1400–1700,1550,,,,0,True,infeasible
+0,Critical,1,8,1700–2100,1900,,,,0,True,infeasible
+0,Critical,1,9,2100–2500,2300,,,,0,True,infeasible
+0,Critical,2,0,0–150,75,,,,1,True,infeasible
+0,Critical,2,1,150–300,225,,,,0,True,infeasible
+0,Critical,2,2,300–500,400,,,,0,True,infeasible
+0,Critical,2,3,500–700,600,,,,0,True,infeasible
+0,Critical,2,4,700–900,800,,,,0,True,infeasible
+0,Critical,2,5,900–1100,1000,,,,0,True,infeasible
+0,Critical,2,6,1100–1400,1250,,,,0,True,infeasible
+0,Critical,2,7,1400–1700,1550,,,,0,True,infeasible
+0,Critical,2,8,1700–2100,1900,,,,0,True,infeasible
+0,Critical,2,9,2100–2500,2300,,,,0,True,infeasible
+0,Critical,3,0,0–150,75,,,,1,True,infeasible
+0,Critical,3,1,150–300,225,,,,1,True,infeasible
+0,Critical,3,2,300–500,400,,,,5,True,infeasible
+0,Critical,3,3,500–700,600,,,,3,True,infeasible
+0,Critical,3,4,700–900,800,,,,4,True,infeasible
+0,Critical,3,5,900–1100,1000,,,,0,True,infeasible
+0,Critical,3,6,1100–1400,1250,,,,0,True,infeasible
+0,Critical,3,7,1400–1700,1550,,,,0,True,infeasible
+0,Critical,3,8,1700–2100,1900,,,,0,True,infeasible
+0,Critical,3,9,2100–2500,2300,,,,0,True,infeasible
+0,Critical,4,0,0–150,75,,,,0,True,infeasible
+0,Critical,4,1,150–300,225,,,,2,True,infeasible
+0,Critical,4,2,300–500,400,,,,3,True,infeasible
+0,Critical,4,3,500–700,600,,,,13,True,infeasible
+0,Critical,4,4,700–900,800,,,,19,True,infeasible
+0,Critical,4,5,900–1100,1000,,,,4,True,infeasible
+0,Critical,4,6,1100–1400,1250,,,,0,True,infeasible
+0,Critical,4,7,1400–1700,1550,,,,0,True,infeasible
+0,Critical,4,8,1700–2100,1900,,,,0,True,infeasible
+0,Critical,4,9,2100–2500,2300,,,,0,True,infeasible
+0,Critical,5,0,0–150,75,,,,0,True,infeasible
+0,Critical,5,1,150–300,225,,,,0,True,infeasible
+0,Critical,5,2,300–500,400,126.6596,0.41554986876640415,1.0,10,False,observed
+0,Critical,5,3,500–700,600,311.63112765957453,1.0224118361534598,2.0,47,False,observed
+0,Critical,5,4,700–900,800,419.1571978021978,1.3751876568313575,2.0,91,False,observed
+0,Critical,5,5,900–1100,1000,424.44079310344824,1.392522287084804,2.0,29,False,observed
+0,Critical,5,6,1100–1400,1250,455.5099285714286,1.494455146231721,2.0,14,False,observed
+0,Critical,5,7,1400–1700,1550,,,,0,True,infeasible
+0,Critical,5,8,1700–2100,1900,,,,0,True,infeasible
+0,Critical,5,9,2100–2500,2300,,,,0,True,infeasible
+0,Critical,6,0,0–150,75,,,,0,True,infeasible
+0,Critical,6,1,150–300,225,,,,0,True,infeasible
+0,Critical,6,2,300–500,400,,,,2,True,infeasible
+0,Critical,6,3,500–700,600,267.6446730769231,0.8780993211185141,2.0,52,False,observed
+0,Critical,6,4,700–900,800,372.39945777777774,1.2217829979585884,2.0,225,False,observed
+0,Critical,6,5,900–1100,1000,433.6192688172043,1.4226353963819036,2.0,186,False,observed
+0,Critical,6,6,1100–1400,1250,454.02124137931037,1.4895710019006245,2.0,58,False,observed
+0,Critical,6,7,1400–1700,1550,,,,2,True,infeasible
+0,Critical,6,8,1700–2100,1900,,,,0,True,infeasible
+0,Critical,6,9,2100–2500,2300,,,,0,True,infeasible
+0,Critical,7,0,0–150,75,,,,0,True,infeasible
+0,Critical,7,1,150–300,225,,,,0,True,infeasible
+0,Critical,7,2,300–500,400,,,,1,True,infeasible
+0,Critical,7,3,500–700,600,260.6772894736842,0.8552404510291476,2.0,38,False,observed
+0,Critical,7,4,700–900,800,359.1140519877676,1.1781957086212846,2.0,327,False,observed
+0,Critical,7,5,900–1100,1000,427.4941366459627,1.4025398183922662,2.0,483,False,observed
+0,Critical,7,6,1100–1400,1250,460.08525431034485,1.5094660574486378,2.0,232,False,observed
+0,Critical,7,7,1400–1700,1550,620.2679999999999,2.0349999999999997,3.0,7,False,observed
+0,Critical,7,8,1700–2100,1900,,,,0,True,infeasible
+0,Critical,7,9,2100–2500,2300,,,,0,True,infeasible
+0,Critical,8,0,0–150,75,,,,0,True,infeasible
+0,Critical,8,1,150–300,225,,,,0,True,infeasible
+0,Critical,8,2,300–500,400,,,,2,True,infeasible
+0,Critical,8,3,500–700,600,186.5514,0.6120452755905511,2.0,10,False,observed
+0,Critical,8,4,700–900,800,345.9736571428571,1.1350841769778777,3.0,175,False,observed
+0,Critical,8,5,900–1100,1000,419.7052725527831,1.376985802338527,3.0,521,False,observed
+0,Critical,8,6,1100–1400,1250,465.01581375358165,1.525642433574743,3.0,349,False,observed
+0,Critical,8,7,1400–1700,1550,524.2081000000001,1.719842847769029,2.0,30,False,observed
+0,Critical,8,8,1700–2100,1900,,,,0,True,infeasible
+0,Critical,8,9,2100–2500,2300,,,,0,True,infeasible
+0,Critical,9,0,0–150,75,,,,0,True,infeasible
+0,Critical,9,1,150–300,225,,,,0,True,infeasible
+0,Critical,9,2,300–500,400,,,,0,True,infeasible
+0,Critical,9,3,500–700,600,,,,4,True,infeasible
+0,Critical,9,4,700–900,800,318.087,1.0435925196850393,3.0,45,False,observed
+0,Critical,9,5,900–1100,1000,413.32329317269074,1.356047549779169,3.0,249,False,observed
+0,Critical,9,6,1100–1400,1250,452.3239457831325,1.484002446795054,3.0,166,False,observed
+0,Critical,9,7,1400–1700,1550,541.2290555555555,1.7756858778069406,3.0,18,False,observed
+0,Critical,9,8,1700–2100,1900,,,,0,True,infeasible
+0,Critical,9,9,2100–2500,2300,,,,0,True,infeasible
+0,Critical,10,0,0–150,75,,,,0,True,infeasible
+0,Critical,10,1,150–300,225,,,,0,True,infeasible
+0,Critical,10,2,300–500,400,,,,0,True,infeasible
+0,Critical,10,3,500–700,600,,,,0,True,infeasible
+0,Critical,10,4,700–900,800,331.1057777777778,1.086305045202683,3.0,9,False,observed
+0,Critical,10,5,900–1100,1000,420.1443970588236,1.3784264995368227,3.0,68,False,observed
+0,Critical,10,6,1100–1400,1250,454.4003137254902,1.4908146775770676,3.0,51,False,observed
+0,Critical,10,7,1400–1700,1550,771.5468013931483,2.5313215268804075,3.0,4,True,sparse
+0,Critical,10,8,1700–2100,1900,,,,0,True,infeasible
+0,Critical,10,9,2100–2500,2300,,,,0,True,infeasible
+0,Critical,11,0,0–150,75,,,,0,True,infeasible
+0,Critical,11,1,150–300,225,,,,0,True,infeasible
+0,Critical,11,2,300–500,400,,,,0,True,infeasible
+0,Critical,11,3,500–700,600,,,,1,True,infeasible
+0,Critical,11,4,700–900,800,216.00168637680935,0.7086669500551488,3.0,2,True,sparse
+0,Critical,11,5,900–1100,1000,392.3944,1.2873832020997376,3.0,5,False,observed
+0,Critical,11,6,1100–1400,1250,396.87283333333335,1.3020762248468942,4.0,6,False,observed
+0,Critical,11,7,1400–1700,1550,784.5201395106467,2.5738849721477908,3.0,2,True,sparse
+0,Critical,11,8,1700–2100,1900,,,,0,True,infeasible
+0,Critical,11,9,2100–2500,2300,,,,0,True,infeasible
+0,Critical,12,0,0–150,75,,,,0,True,infeasible
+0,Critical,12,1,150–300,225,,,,0,True,infeasible
+0,Critical,12,2,300–500,400,,,,0,True,infeasible
+0,Critical,12,3,500–700,600,,,,0,True,infeasible
+0,Critical,12,4,700–900,800,213.06230601575257,0.6990233136999756,3.0,1,True,sparse
+0,Critical,12,5,900–1100,1000,377.15479926868466,1.237384512036367,3.0,0,True,extrapolated
+0,Critical,12,6,1100–1400,1250,667.0347178891758,2.188434113809632,3.0,1,True,sparse
+0,Critical,12,7,1400–1700,1550,930.0,3.0511811023622046,3.0,0,True,extrapolated
+0,Critical,12,8,1700–2100,1900,,,,0,True,infeasible
+0,Critical,12,9,2100–2500,2300,,,,0,True,infeasible
+0,Critical,13,0,0–150,75,,,,0,True,infeasible
+0,Critical,13,1,150–300,225,,,,0,True,infeasible
+0,Critical,13,2,300–500,400,,,,0,True,infeasible
+0,Critical,13,3,500–700,600,,,,0,True,infeasible
+0,Critical,13,4,700–900,800,,,,0,True,infeasible
+0,Critical,13,5,900–1100,1000,,,,0,True,infeasible
+0,Critical,13,6,1100–1400,1250,658.7060775986536,2.1611091784732728,4.0,0,True,extrapolated
+0,Critical,13,7,1400–1700,1550,930.0,3.0511811023622046,4.0,0,True,extrapolated
+0,Critical,13,8,1700–2100,1900,1140.0,3.7401574803149606,4.0,0,True,extrapolated
+0,Critical,13,9,2100–2500,2300,1380.0,4.52755905511811,4.0,0,True,extrapolated
+0,Critical,14,0,0–150,75,,,,0,True,infeasible
+0,Critical,14,1,150–300,225,,,,0,True,infeasible
+0,Critical,14,2,300–500,400,,,,0,True,infeasible
+0,Critical,14,3,500–700,600,,,,0,True,infeasible
+0,Critical,14,4,700–900,800,,,,0,True,infeasible
+0,Critical,14,5,900–1100,1000,,,,0,True,infeasible
+0,Critical,14,6,1100–1400,1250,651.0875630902466,2.136114052133355,5.0,0,True,extrapolated
+0,Critical,14,7,1400–1700,1550,930.0,3.0511811023622046,5.0,0,True,extrapolated
+0,Critical,14,8,1700–2100,1900,1140.0,3.7401574803149606,5.0,0,True,extrapolated
+0,Critical,14,9,2100–2500,2300,1380.0,4.52755905511811,5.0,0,True,extrapolated
+0,Dry,1,0,0–150,75,,,,0,True,infeasible
+0,Dry,1,1,150–300,225,,,,0,True,infeasible
+0,Dry,1,2,300–500,400,,,,0,True,infeasible
+0,Dry,1,3,500–700,600,,,,0,True,infeasible
+0,Dry,1,4,700–900,800,,,,0,True,infeasible
+0,Dry,1,5,900–1100,1000,,,,0,True,infeasible
+0,Dry,1,6,1100–1400,1250,,,,0,True,infeasible
+0,Dry,1,7,1400–1700,1550,,,,0,True,infeasible
+0,Dry,1,8,1700–2100,1900,,,,0,True,infeasible
+0,Dry,1,9,2100–2500,2300,,,,0,True,infeasible
+0,Dry,2,0,0–150,75,,,,0,True,infeasible
+0,Dry,2,1,150–300,225,,,,0,True,infeasible
+0,Dry,2,2,300–500,400,,,,0,True,infeasible
+0,Dry,2,3,500–700,600,,,,0,True,infeasible
+0,Dry,2,4,700–900,800,,,,0,True,infeasible
+0,Dry,2,5,900–1100,1000,,,,0,True,infeasible
+0,Dry,2,6,1100–1400,1250,,,,0,True,infeasible
+0,Dry,2,7,1400–1700,1550,,,,0,True,infeasible
+0,Dry,2,8,1700–2100,1900,,,,0,True,infeasible
+0,Dry,2,9,2100–2500,2300,,,,0,True,infeasible
+0,Dry,3,0,0–150,75,,,,0,True,infeasible
+0,Dry,3,1,150–300,225,,,,0,True,infeasible
+0,Dry,3,2,300–500,400,,,,0,True,infeasible
+0,Dry,3,3,500–700,600,,,,1,True,infeasible
+0,Dry,3,4,700–900,800,,,,1,True,infeasible
+0,Dry,3,5,900–1100,1000,,,,0,True,infeasible
+0,Dry,3,6,1100–1400,1250,,,,0,True,infeasible
+0,Dry,3,7,1400–1700,1550,,,,0,True,infeasible
+0,Dry,3,8,1700–2100,1900,,,,0,True,infeasible
+0,Dry,3,9,2100–2500,2300,,,,0,True,infeasible
+0,Dry,4,0,0–150,75,,,,0,True,infeasible
+0,Dry,4,1,150–300,225,,,,0,True,infeasible
+0,Dry,4,2,300–500,400,,,,1,True,infeasible
+0,Dry,4,3,500–700,600,,,,2,True,infeasible
+0,Dry,4,4,700–900,800,,,,10,True,infeasible
+0,Dry,4,5,900–1100,1000,,,,0,True,infeasible
+0,Dry,4,6,1100–1400,1250,,,,0,True,infeasible
+0,Dry,4,7,1400–1700,1550,,,,0,True,infeasible
+0,Dry,4,8,1700–2100,1900,,,,0,True,infeasible
+0,Dry,4,9,2100–2500,2300,,,,0,True,infeasible
+0,Dry,5,0,0–150,75,,,,0,True,infeasible
+0,Dry,5,1,150–300,225,,,,0,True,infeasible
+0,Dry,5,2,300–500,400,40.32567755512881,0.13230209171630186,2.0,1,True,sparse
+0,Dry,5,3,500–700,600,191.1287142857143,0.6270627109111361,1.0,14,False,observed
+0,Dry,5,4,700–900,800,419.0546470588235,1.374851204261232,2.0,34,False,observed
+0,Dry,5,5,900–1100,1000,449.89890909090917,1.476046289668337,2.0,11,False,observed
+0,Dry,5,6,1100–1400,1250,,,,1,True,infeasible
+0,Dry,5,7,1400–1700,1550,,,,0,True,infeasible
+0,Dry,5,8,1700–2100,1900,,,,0,True,infeasible
+0,Dry,5,9,2100–2500,2300,,,,0,True,infeasible
+0,Dry,6,0,0–150,75,,,,0,True,infeasible
+0,Dry,6,1,150–300,225,,,,0,True,infeasible
+0,Dry,6,2,300–500,400,,,,0,True,infeasible
+0,Dry,6,3,500–700,600,228.42988235294118,0.7494418712366836,2.0,17,False,observed
+0,Dry,6,4,700–900,800,365.4185166666666,1.1988796478565178,2.0,120,False,observed
+0,Dry,6,5,900–1100,1000,454.55725352112677,1.4913295719197073,2.0,71,False,observed
+0,Dry,6,6,1100–1400,1250,354.7196,1.163778215223097,2.0,5,False,observed
+0,Dry,6,7,1400–1700,1550,,,,0,True,infeasible
+0,Dry,6,8,1700–2100,1900,,,,0,True,infeasible
+0,Dry,6,9,2100–2500,2300,,,,0,True,infeasible
+0,Dry,7,0,0–150,75,,,,0,True,infeasible
+0,Dry,7,1,150–300,225,,,,0,True,infeasible
+0,Dry,7,2,300–500,400,,,,1,True,infeasible
+0,Dry,7,3,500–700,600,250.94446153846152,0.8233086008479709,2.0,13,False,observed
+0,Dry,7,4,700–900,800,363.5093421052632,1.1926159517889212,2.0,152,False,observed
+0,Dry,7,5,900–1100,1000,429.0581777003485,1.4076711866809333,2.0,287,False,observed
+0,Dry,7,6,1100–1400,1250,464.080695652174,1.5225744608010956,2.0,69,False,observed
+0,Dry,7,7,1400–1700,1550,,,,0,True,infeasible
+0,Dry,7,8,1700–2100,1900,,,,0,True,infeasible
+0,Dry,7,9,2100–2500,2300,,,,0,True,infeasible
+0,Dry,8,0,0–150,75,,,,0,True,infeasible
+0,Dry,8,1,150–300,225,,,,0,True,infeasible
+0,Dry,8,2,300–500,400,,,,1,True,infeasible
+0,Dry,8,3,500–700,600,201.4875,0.6610482283464567,2.0,8,False,observed
+0,Dry,8,4,700–900,800,348.2344494382022,1.1425014745347841,3.0,89,False,observed
+0,Dry,8,5,900–1100,1000,409.46550837988826,1.3433907755245678,3.0,358,False,observed
+0,Dry,8,6,1100–1400,1250,446.53416494845357,1.465007102849257,3.0,194,False,observed
+0,Dry,8,7,1400–1700,1550,,,,1,True,infeasible
+0,Dry,8,8,1700–2100,1900,,,,0,True,infeasible
+0,Dry,8,9,2100–2500,2300,,,,0,True,infeasible
+0,Dry,9,0,0–150,75,,,,0,True,infeasible
+0,Dry,9,1,150–300,225,,,,0,True,infeasible
+0,Dry,9,2,300–500,400,,,,0,True,infeasible
+0,Dry,9,3,500–700,600,,,,0,True,infeasible
+0,Dry,9,4,700–900,800,304.621125,0.9994131397637795,3.0,16,False,observed
+0,Dry,9,5,900–1100,1000,402.59524031007754,1.3208505259516978,3.0,129,False,observed
+0,Dry,9,6,1100–1400,1250,461.7393309859155,1.5148928181952608,3.0,142,False,observed
+0,Dry,9,7,1400–1700,1550,801.0246937854804,2.6280337722620746,3.0,3,True,sparse
+0,Dry,9,8,1700–2100,1900,,,,0,True,infeasible
+0,Dry,9,9,2100–2500,2300,,,,0,True,infeasible
+0,Dry,10,0,0–150,75,,,,0,True,infeasible
+0,Dry,10,1,150–300,225,,,,0,True,infeasible
+0,Dry,10,2,300–500,400,,,,0,True,infeasible
+0,Dry,10,3,500–700,600,,,,0,True,infeasible
+0,Dry,10,4,700–900,800,216.11567612777532,0.7090409321777406,3.0,1,True,sparse
+0,Dry,10,5,900–1100,1000,390.4182222222223,1.2808996792067662,3.0,18,False,observed
+0,Dry,10,6,1100–1400,1250,480.1162666666668,1.5751846019247597,3.0,15,False,observed
+0,Dry,10,7,1400–1700,1550,771.5468013931483,2.5313215268804075,3.0,1,True,sparse
+0,Dry,10,8,1700–2100,1900,,,,0,True,infeasible
+0,Dry,10,9,2100–2500,2300,,,,0,True,infeasible
+0,Dry,11,0,0–150,75,,,,0,True,infeasible
+0,Dry,11,1,150–300,225,,,,0,True,infeasible
+0,Dry,11,2,300–500,400,,,,0,True,infeasible
+0,Dry,11,3,500–700,600,,,,0,True,infeasible
+0,Dry,11,4,700–900,800,212.89634737286633,0.6984788299634722,3.0,0,True,extrapolated
+0,Dry,11,5,900–1100,1000,376.8616226769921,1.2364226465780581,3.0,1,True,sparse
+0,Dry,11,6,1100–1400,1250,632.6775318634247,2.0757136872159605,3.0,1,True,sparse
+0,Dry,11,7,1400–1700,1550,784.5201395106467,2.5738849721477908,3.0,1,True,sparse
+0,Dry,11,8,1700–2100,1900,,,,0,True,infeasible
+0,Dry,11,9,2100–2500,2300,,,,0,True,infeasible
+0,Dry,12,0,0–150,75,,,,0,True,infeasible
+0,Dry,12,1,150–300,225,,,,0,True,infeasible
+0,Dry,12,2,300–500,400,,,,0,True,infeasible
+0,Dry,12,3,500–700,600,,,,0,True,infeasible
+0,Dry,12,4,700–900,800,209.99903015258514,0.6889731960386651,3.0,0,True,extrapolated
+0,Dry,12,5,900–1100,1000,371.74332589580865,1.2196303343038342,3.0,0,True,extrapolated
+0,Dry,12,6,1100–1400,1250,657.475002939094,2.15707021961645,3.0,0,True,extrapolated
+0,Dry,12,7,1400–1700,1550,930.0,3.0511811023622046,3.0,0,True,extrapolated
+0,Dry,12,8,1700–2100,1900,,,,0,True,infeasible
+0,Dry,12,9,2100–2500,2300,,,,0,True,infeasible
+0,Dry,13,0,0–150,75,,,,0,True,infeasible
+0,Dry,13,1,150–300,225,,,,0,True,infeasible
+0,Dry,13,2,300–500,400,,,,0,True,infeasible
+0,Dry,13,3,500–700,600,,,,0,True,infeasible
+0,Dry,13,4,700–900,800,,,,0,True,infeasible
+0,Dry,13,5,900–1100,1000,,,,0,True,infeasible
+0,Dry,13,6,1100–1400,1250,649.2655472133363,2.13013630975504,4.0,0,True,extrapolated
+0,Dry,13,7,1400–1700,1550,930.0,3.0511811023622046,4.0,0,True,extrapolated
+0,Dry,13,8,1700–2100,1900,1140.0,3.7401574803149606,4.0,0,True,extrapolated
+0,Dry,13,9,2100–2500,2300,1380.0,4.52755905511811,4.0,0,True,extrapolated
+0,Dry,14,0,0–150,75,,,,0,True,infeasible
+0,Dry,14,1,150–300,225,,,,0,True,infeasible
+0,Dry,14,2,300–500,400,,,,0,True,infeasible
+0,Dry,14,3,500–700,600,,,,0,True,infeasible
+0,Dry,14,4,700–900,800,,,,0,True,infeasible
+0,Dry,14,5,900–1100,1000,,,,0,True,infeasible
+0,Dry,14,6,1100–1400,1250,641.7560552229108,2.105498868841571,5.0,0,True,extrapolated
+0,Dry,14,7,1400–1700,1550,930.0,3.0511811023622046,5.0,0,True,extrapolated
+0,Dry,14,8,1700–2100,1900,1140.0,3.7401574803149606,5.0,0,True,extrapolated
+0,Dry,14,9,2100–2500,2300,1380.0,4.52755905511811,5.0,0,True,extrapolated
+0,Above Normal,1,0,0–150,75,,,,10,True,infeasible
+0,Above Normal,1,1,150–300,225,,,,13,True,infeasible
+0,Above Normal,1,2,300–500,400,,,,2,True,infeasible
+0,Above Normal,1,3,500–700,600,,,,0,True,infeasible
+0,Above Normal,1,4,700–900,800,,,,0,True,infeasible
+0,Above Normal,1,5,900–1100,1000,,,,0,True,infeasible
+0,Above Normal,1,6,1100–1400,1250,,,,0,True,infeasible
+0,Above Normal,1,7,1400–1700,1550,,,,0,True,infeasible
+0,Above Normal,1,8,1700–2100,1900,,,,0,True,infeasible
+0,Above Normal,1,9,2100–2500,2300,,,,0,True,infeasible
+0,Above Normal,2,0,0–150,75,,,,9,True,infeasible
+0,Above Normal,2,1,150–300,225,,,,34,True,infeasible
+0,Above Normal,2,2,300–500,400,,,,24,True,infeasible
+0,Above Normal,2,3,500–700,600,,,,4,True,infeasible
+0,Above Normal,2,4,700–900,800,,,,2,True,infeasible
+0,Above Normal,2,5,900–1100,1000,,,,0,True,infeasible
+0,Above Normal,2,6,1100–1400,1250,,,,0,True,infeasible
+0,Above Normal,2,7,1400–1700,1550,,,,0,True,infeasible
+0,Above Normal,2,8,1700–2100,1900,,,,0,True,infeasible
+0,Above Normal,2,9,2100–2500,2300,,,,0,True,infeasible
+0,Above Normal,3,0,0–150,75,,,,9,True,infeasible
+0,Above Normal,3,1,150–300,225,,,,22,True,infeasible
+0,Above Normal,3,2,300–500,400,,,,33,True,infeasible
+0,Above Normal,3,3,500–700,600,,,,9,True,infeasible
+0,Above Normal,3,4,700–900,800,,,,8,True,infeasible
+0,Above Normal,3,5,900–1100,1000,,,,0,True,infeasible
+0,Above Normal,3,6,1100–1400,1250,,,,0,True,infeasible
+0,Above Normal,3,7,1400–1700,1550,,,,0,True,infeasible
+0,Above Normal,3,8,1700–2100,1900,,,,0,True,infeasible
+0,Above Normal,3,9,2100–2500,2300,,,,0,True,infeasible
+0,Above Normal,4,0,0–150,75,,,,2,True,infeasible
+0,Above Normal,4,1,150–300,225,,,,20,True,infeasible
+0,Above Normal,4,2,300–500,400,,,,49,True,infeasible
+0,Above Normal,4,3,500–700,600,,,,26,True,infeasible
+0,Above Normal,4,4,700–900,800,,,,14,True,infeasible
+0,Above Normal,4,5,900–1100,1000,,,,2,True,infeasible
+0,Above Normal,4,6,1100–1400,1250,,,,0,True,infeasible
+0,Above Normal,4,7,1400–1700,1550,,,,0,True,infeasible
+0,Above Normal,4,8,1700–2100,1900,,,,0,True,infeasible
+0,Above Normal,4,9,2100–2500,2300,,,,0,True,infeasible
+0,Above Normal,5,0,0–150,75,,,,0,True,infeasible
+0,Above Normal,5,1,150–300,225,28.05033333333333,0.09202865266841644,0.0,12,False,observed
+0,Above Normal,5,2,300–500,400,62.39165217391305,0.2046970215679562,1.0,46,False,observed
+0,Above Normal,5,3,500–700,600,283.3812537313433,0.9297285227406276,2.0,67,False,observed
+0,Above Normal,5,4,700–900,800,405.85996590909093,1.3315615679432116,2.0,88,False,observed
+0,Above Normal,5,5,900–1100,1000,510.3472222222223,1.674367526975795,2.0,27,False,observed
+0,Above Normal,5,6,1100–1400,1250,,,,1,True,infeasible
+0,Above Normal,5,7,1400–1700,1550,,,,0,True,infeasible
+0,Above Normal,5,8,1700–2100,1900,,,,0,True,infeasible
+0,Above Normal,5,9,2100–2500,2300,,,,0,True,infeasible
+0,Above Normal,6,0,0–150,75,,,,0,True,infeasible
+0,Above Normal,6,1,150–300,225,6.414142857142857,0.021043775778027747,0.0,7,False,observed
+0,Above Normal,6,2,300–500,400,91.26489130434784,0.29942549640534066,1.0,46,False,observed
+0,Above Normal,6,3,500–700,600,225.28988,0.7391400262467192,2.0,50,False,observed
+0,Above Normal,6,4,700–900,800,377.2315213675214,1.2376362249590596,2.0,117,False,observed
+0,Above Normal,6,5,900–1100,1000,461.78952777777783,1.5150575058326043,2.0,72,False,observed
+0,Above Normal,6,6,1100–1400,1250,548.6499,1.8000324803149605,2.0,20,False,observed
+0,Above Normal,6,7,1400–1700,1550,,,,0,True,infeasible
+0,Above Normal,6,8,1700–2100,1900,,,,0,True,infeasible
+0,Above Normal,6,9,2100–2500,2300,,,,0,True,infeasible
+0,Above Normal,7,0,0–150,75,,,,0,True,infeasible
+0,Above Normal,7,1,150–300,225,,,,2,True,infeasible
+0,Above Normal,7,2,300–500,400,47.181999999999995,0.15479658792650916,1.0,6,False,observed
+0,Above Normal,7,3,500–700,600,179.23445652173913,0.5880395555175169,2.0,46,False,observed
+0,Above Normal,7,4,700–900,800,366.76588571428573,1.2033001499812523,2.0,140,False,observed
+0,Above Normal,7,5,900–1100,1000,434.57044311377246,1.4257560469611956,2.0,167,False,observed
+0,Above Normal,7,6,1100–1400,1250,442.1921355932203,1.4507615997152896,2.0,59,False,observed
+0,Above Normal,7,7,1400–1700,1550,,,,0,True,infeasible
+0,Above Normal,7,8,1700–2100,1900,,,,0,True,infeasible
+0,Above Normal,7,9,2100–2500,2300,,,,0,True,infeasible
+0,Above Normal,8,0,0–150,75,,,,0,True,infeasible
+0,Above Normal,8,1,150–300,225,,,,2,True,infeasible
+0,Above Normal,8,2,300–500,400,,,,4,True,infeasible
+0,Above Normal,8,3,500–700,600,204.0596111111111,0.6694869130941965,2.0,18,False,observed
+0,Above Normal,8,4,700–900,800,340.08110169491533,1.1157516459806933,2.0,59,False,observed
+0,Above Normal,8,5,900–1100,1000,395.92772222222214,1.2989754666083404,2.0,126,False,observed
+0,Above Normal,8,6,1100–1400,1250,455.2544912280702,1.4936170972049547,2.0,114,False,observed
+0,Above Normal,8,7,1400–1700,1550,,,,3,True,infeasible
+0,Above Normal,8,8,1700–2100,1900,,,,0,True,infeasible
+0,Above Normal,8,9,2100–2500,2300,,,,0,True,infeasible
+0,Above Normal,9,0,0–150,75,,,,0,True,infeasible
+0,Above Normal,9,1,150–300,225,,,,0,True,infeasible
+0,Above Normal,9,2,300–500,400,,,,2,True,infeasible
+0,Above Normal,9,3,500–700,600,,,,2,True,infeasible
+0,Above Normal,9,4,700–900,800,351.1791764705882,1.1521626524625597,2.0,17,False,observed
+0,Above Normal,9,5,900–1100,1000,417.30940677966106,1.369125350326972,3.0,59,False,observed
+0,Above Normal,9,6,1100–1400,1250,447.0338703703704,1.466646556333236,2.0,54,False,observed
+0,Above Normal,9,7,1400–1700,1550,801.0246937854804,2.6280337722620746,3.0,4,True,sparse
+0,Above Normal,9,8,1700–2100,1900,,,,0,True,infeasible
+0,Above Normal,9,9,2100–2500,2300,,,,0,True,infeasible
+0,Above Normal,10,0,0–150,75,,,,0,True,infeasible
+0,Above Normal,10,1,150–300,225,,,,0,True,infeasible
+0,Above Normal,10,2,300–500,400,,,,0,True,infeasible
+0,Above Normal,10,3,500–700,600,,,,0,True,infeasible
+0,Above Normal,10,4,700–900,800,207.25872572392026,0.6799826959446202,3.0,0,True,extrapolated
+0,Above Normal,10,5,900–1100,1000,450.5693,1.4782457349081364,3.0,10,False,observed
+0,Above Normal,10,6,1100–1400,1250,622.2151624138293,2.041388328129361,3.0,1,True,sparse
+0,Above Normal,10,7,1400–1700,1550,771.5468013931483,2.5313215268804075,3.0,0,True,extrapolated
+0,Above Normal,10,8,1700–2100,1900,,,,0,True,infeasible
+0,Above Normal,10,9,2100–2500,2300,,,,0,True,infeasible
+0,Above Normal,11,0,0–150,75,,,,0,True,infeasible
+0,Above Normal,11,1,150–300,225,,,,0,True,infeasible
+0,Above Normal,11,2,300–500,400,,,,0,True,infeasible
+0,Above Normal,11,3,500–700,600,,,,0,True,infeasible
+0,Above Normal,11,4,700–900,800,204.1707252803726,0.6698514608936109,3.0,0,True,extrapolated
+0,Above Normal,11,5,900–1100,1000,361.44725135540807,1.185850562189659,3.0,4,True,sparse
+0,Above Normal,11,6,1100–1400,1250,632.6775318634247,2.0757136872159605,3.0,1,True,sparse
+0,Above Normal,11,7,1400–1700,1550,784.5201395106467,2.5738849721477908,3.0,0,True,extrapolated
+0,Above Normal,11,8,1700–2100,1900,,,,0,True,infeasible
+0,Above Normal,11,9,2100–2500,2300,,,,0,True,infeasible
+0,Above Normal,12,0,0–150,75,,,,0,True,infeasible
+0,Above Normal,12,1,150–300,225,,,,0,True,infeasible
+0,Above Normal,12,2,300–500,400,,,,0,True,infeasible
+0,Above Normal,12,3,500–700,600,,,,0,True,infeasible
+0,Above Normal,12,4,700–900,800,201.39160033151987,0.6607335968881886,3.0,0,True,extrapolated
+0,Above Normal,12,5,900–1100,1000,356.537748805722,1.1697432703599804,3.0,0,True,extrapolated
+0,Above Normal,12,6,1100–1400,1250,630.6133753163257,2.0689415200666854,3.0,0,True,extrapolated
+0,Above Normal,12,7,1400–1700,1550,930.0,3.0511811023622046,3.0,0,True,extrapolated
+0,Above Normal,12,8,1700–2100,1900,,,,0,True,infeasible
+0,Above Normal,12,9,2100–2500,2300,,,,0,True,infeasible
+0,Above Normal,13,0,0–150,75,,,,0,True,infeasible
+0,Above Normal,13,1,150–300,225,,,,0,True,infeasible
+0,Above Normal,13,2,300–500,400,,,,0,True,infeasible
+0,Above Normal,13,3,500–700,600,,,,0,True,infeasible
+0,Above Normal,13,4,700–900,800,,,,0,True,infeasible
+0,Above Normal,13,5,900–1100,1000,,,,0,True,infeasible
+0,Above Normal,13,6,1100–1400,1250,622.7388136134339,2.0431063438760955,4.0,0,True,extrapolated
+0,Above Normal,13,7,1400–1700,1550,930.0,3.0511811023622046,4.0,0,True,extrapolated
+0,Above Normal,13,8,1700–2100,1900,1140.0,3.7401574803149606,4.0,0,True,extrapolated
+0,Above Normal,13,9,2100–2500,2300,1380.0,4.52755905511811,4.0,0,True,extrapolated
+0,Above Normal,14,0,0–150,75,,,,0,True,infeasible
+0,Above Normal,14,1,150–300,225,,,,0,True,infeasible
+0,Above Normal,14,2,300–500,400,,,,0,True,infeasible
+0,Above Normal,14,3,500–700,600,,,,0,True,infeasible
+0,Above Normal,14,4,700–900,800,,,,0,True,infeasible
+0,Above Normal,14,5,900–1100,1000,,,,0,True,infeasible
+0,Above Normal,14,6,1100–1400,1250,615.5356615396076,2.01947395518244,4.0,0,True,extrapolated
+0,Above Normal,14,7,1400–1700,1550,930.0,3.0511811023622046,4.0,0,True,extrapolated
+0,Above Normal,14,8,1700–2100,1900,1140.0,3.7401574803149606,4.0,0,True,extrapolated
+0,Above Normal,14,9,2100–2500,2300,1380.0,4.52755905511811,4.0,0,True,extrapolated
+0,Wet,1,0,0–150,75,,,,1,True,infeasible
+0,Wet,1,1,150–300,225,,,,0,True,infeasible
+0,Wet,1,2,300–500,400,,,,0,True,infeasible
+0,Wet,1,3,500–700,600,,,,0,True,infeasible
+0,Wet,1,4,700–900,800,,,,0,True,infeasible
+0,Wet,1,5,900–1100,1000,,,,0,True,infeasible
+0,Wet,1,6,1100–1400,1250,,,,0,True,infeasible
+0,Wet,1,7,1400–1700,1550,,,,0,True,infeasible
+0,Wet,1,8,1700–2100,1900,,,,0,True,infeasible
+0,Wet,1,9,2100–2500,2300,,,,0,True,infeasible
+0,Wet,2,0,0–150,75,,,,8,True,infeasible
+0,Wet,2,1,150–300,225,,,,10,True,infeasible
+0,Wet,2,2,300–500,400,,,,3,True,infeasible
+0,Wet,2,3,500–700,600,,,,0,True,infeasible
+0,Wet,2,4,700–900,800,,,,0,True,infeasible
+0,Wet,2,5,900–1100,1000,,,,0,True,infeasible
+0,Wet,2,6,1100–1400,1250,,,,0,True,infeasible
+0,Wet,2,7,1400–1700,1550,,,,0,True,infeasible
+0,Wet,2,8,1700–2100,1900,,,,0,True,infeasible
+0,Wet,2,9,2100–2500,2300,,,,0,True,infeasible
+0,Wet,3,0,0–150,75,,,,4,True,infeasible
+0,Wet,3,1,150–300,225,,,,24,True,infeasible
+0,Wet,3,2,300–500,400,,,,13,True,infeasible
+0,Wet,3,3,500–700,600,,,,6,True,infeasible
+0,Wet,3,4,700–900,800,,,,4,True,infeasible
+0,Wet,3,5,900–1100,1000,,,,0,True,infeasible
+0,Wet,3,6,1100–1400,1250,,,,0,True,infeasible
+0,Wet,3,7,1400–1700,1550,,,,0,True,infeasible
+0,Wet,3,8,1700–2100,1900,,,,0,True,infeasible
+0,Wet,3,9,2100–2500,2300,,,,0,True,infeasible
+0,Wet,4,0,0–150,75,,,,6,True,infeasible
+0,Wet,4,1,150–300,225,,,,17,True,infeasible
+0,Wet,4,2,300–500,400,,,,46,True,infeasible
+0,Wet,4,3,500–700,600,,,,29,True,infeasible
+0,Wet,4,4,700–900,800,,,,18,True,infeasible
+0,Wet,4,5,900–1100,1000,,,,6,True,infeasible
+0,Wet,4,6,1100–1400,1250,,,,0,True,infeasible
+0,Wet,4,7,1400–1700,1550,,,,0,True,infeasible
+0,Wet,4,8,1700–2100,1900,,,,0,True,infeasible
+0,Wet,4,9,2100–2500,2300,,,,0,True,infeasible
+0,Wet,5,0,0–150,75,,,,2,True,infeasible
+0,Wet,5,1,150–300,225,31.71781818181819,0.10406108327368171,0.0,11,False,observed
+0,Wet,5,2,300–500,400,95.15895312500001,0.31220128978018374,1.0,64,False,observed
+0,Wet,5,3,500–700,600,284.5772795698925,0.9336524920272062,2.0,93,False,observed
+0,Wet,5,4,700–900,800,418.19254838709685,1.3720227965455933,2.0,93,False,observed
+0,Wet,5,5,900–1100,1000,491.23253333333344,1.6116552930883643,2.0,15,False,observed
+0,Wet,5,6,1100–1400,1250,587.6238571428572,1.9278997937757782,2.0,7,False,observed
+0,Wet,5,7,1400–1700,1550,,,,0,True,infeasible
+0,Wet,5,8,1700–2100,1900,,,,0,True,infeasible
+0,Wet,5,9,2100–2500,2300,,,,0,True,infeasible
+0,Wet,6,0,0–150,75,,,,0,True,infeasible
+0,Wet,6,1,150–300,225,,,,2,True,infeasible
+0,Wet,6,2,300–500,400,109.44551428571428,0.3590732095988001,1.0,35,False,observed
+0,Wet,6,3,500–700,600,274.4233103448276,0.9003389447008779,2.0,116,False,observed
+0,Wet,6,4,700–900,800,392.1336578947368,1.2865277489984803,2.0,304,False,observed
+0,Wet,6,5,900–1100,1000,442.1223455882353,1.4505326298826617,2.0,136,False,observed
+0,Wet,6,6,1100–1400,1250,497.72983333333343,1.632971894138233,2.0,30,False,observed
+0,Wet,6,7,1400–1700,1550,,,,0,True,infeasible
+0,Wet,6,8,1700–2100,1900,,,,0,True,infeasible
+0,Wet,6,9,2100–2500,2300,,,,0,True,infeasible
+0,Wet,7,0,0–150,75,,,,0,True,infeasible
+0,Wet,7,1,150–300,225,,,,2,True,infeasible
+0,Wet,7,2,300–500,400,103.9713,0.34111318897637793,1.0,10,False,observed
+0,Wet,7,3,500–700,600,277.62283749999995,0.9108360810367452,2.0,80,False,observed
+0,Wet,7,4,700–900,800,389.75188888888886,1.2787135462233885,2.0,360,False,observed
+0,Wet,7,5,900–1100,1000,435.6609328358209,1.429333769146394,2.0,402,False,observed
+0,Wet,7,6,1100–1400,1250,456.0233899371069,1.4961397307647863,2.0,159,False,observed
+0,Wet,7,7,1400–1700,1550,582.6060000000001,1.911437007874016,3.0,5,False,observed
+0,Wet,7,8,1700–2100,1900,,,,0,True,infeasible
+0,Wet,7,9,2100–2500,2300,,,,0,True,infeasible
+0,Wet,8,0,0–150,75,,,,0,True,infeasible
+0,Wet,8,1,150–300,225,,,,0,True,infeasible
+0,Wet,8,2,300–500,400,,,,2,True,infeasible
+0,Wet,8,3,500–700,600,264.24804166666667,0.86695551727909,2.0,24,False,observed
+0,Wet,8,4,700–900,800,366.3954130434783,1.2020846884628553,3.0,230,False,observed
+0,Wet,8,5,900–1100,1000,425.26447887323945,1.3952246682192895,3.0,426,False,observed
+0,Wet,8,6,1100–1400,1250,471.79365423728825,1.5478794430357226,3.0,295,False,observed
+0,Wet,8,7,1400–1700,1550,550.4138,1.8058195538057744,3.0,5,False,observed
+0,Wet,8,8,1700–2100,1900,,,,0,True,infeasible
+0,Wet,8,9,2100–2500,2300,,,,0,True,infeasible
+0,Wet,9,0,0–150,75,,,,0,True,infeasible
+0,Wet,9,1,150–300,225,,,,0,True,infeasible
+0,Wet,9,2,300–500,400,,,,1,True,infeasible
+0,Wet,9,3,500–700,600,,,,3,True,infeasible
+0,Wet,9,4,700–900,800,371.33254,1.2182826115485563,3.0,50,False,observed
+0,Wet,9,5,900–1100,1000,428.45459659090915,1.4056909336972085,3.0,176,False,observed
+0,Wet,9,6,1100–1400,1250,471.6026,1.547252624671916,3.0,140,False,observed
+0,Wet,9,7,1400–1700,1550,801.0246937854804,2.6280337722620746,3.0,3,True,sparse
+0,Wet,9,8,1700–2100,1900,,,,0,True,infeasible
+0,Wet,9,9,2100–2500,2300,,,,0,True,infeasible
+0,Wet,10,0,0–150,75,,,,0,True,infeasible
+0,Wet,10,1,150–300,225,,,,0,True,infeasible
+0,Wet,10,2,300–500,400,,,,3,True,infeasible
+0,Wet,10,3,500–700,600,,,,0,True,infeasible
+0,Wet,10,4,700–900,800,334.82958333333335,1.098522255030621,3.0,12,False,observed
+0,Wet,10,5,900–1100,1000,432.3531714285714,1.418481533558305,3.0,35,False,observed
+0,Wet,10,6,1100–1400,1250,478.28587096774186,1.5691793666920664,3.0,31,False,observed
+0,Wet,10,7,1400–1700,1550,771.5468013931483,2.5313215268804075,3.0,4,True,sparse
+0,Wet,10,8,1700–2100,1900,,,,0,True,infeasible
+0,Wet,10,9,2100–2500,2300,,,,0,True,infeasible
+0,Wet,11,0,0–150,75,,,,0,True,infeasible
+0,Wet,11,1,150–300,225,,,,0,True,infeasible
+0,Wet,11,2,300–500,400,,,,0,True,infeasible
+0,Wet,11,3,500–700,600,,,,0,True,infeasible
+0,Wet,11,4,700–900,800,225.09976506806706,0.7385162895933959,3.0,0,True,extrapolated
+0,Wet,11,5,900–1100,1000,388.487625,1.2745656988188976,3.0,8,False,observed
+0,Wet,11,6,1100–1400,1250,425.3727,1.3955797244094488,3.0,10,False,observed
+0,Wet,11,7,1400–1700,1550,784.5201395106467,2.5738849721477908,3.0,0,True,extrapolated
+0,Wet,11,8,1700–2100,1900,,,,0,True,infeasible
+0,Wet,11,9,2100–2500,2300,,,,0,True,infeasible
+0,Wet,12,0,0–150,75,,,,0,True,infeasible
+0,Wet,12,1,150–300,225,,,,0,True,infeasible
+0,Wet,12,2,300–500,400,,,,0,True,infeasible
+0,Wet,12,3,500–700,600,,,,0,True,infeasible
+0,Wet,12,4,700–900,800,222.03714735215394,0.7284683312078541,3.0,0,True,extrapolated
+0,Wet,12,5,900–1100,1000,393.0094323762315,1.2894010248564025,3.0,0,True,extrapolated
+0,Wet,12,6,1100–1400,1250,695.0429446146312,2.2803246214390787,3.0,1,True,sparse
+0,Wet,12,7,1400–1700,1550,930.0,3.0511811023622046,3.0,0,True,extrapolated
+0,Wet,12,8,1700–2100,1900,,,,0,True,infeasible
+0,Wet,12,9,2100–2500,2300,,,,0,True,infeasible
+0,Wet,13,0,0–150,75,,,,0,True,infeasible
+0,Wet,13,1,150–300,225,,,,0,True,infeasible
+0,Wet,13,2,300–500,400,,,,0,True,infeasible
+0,Wet,13,3,500–700,600,,,,0,True,infeasible
+0,Wet,13,4,700–900,800,,,,0,True,infeasible
+0,Wet,13,5,900–1100,1000,,,,0,True,infeasible
+0,Wet,13,6,1100–1400,1250,686.3651152186254,2.2518540525545454,4.0,0,True,extrapolated
+0,Wet,13,7,1400–1700,1550,930.0,3.0511811023622046,4.0,0,True,extrapolated
+0,Wet,13,8,1700–2100,1900,1140.0,3.7401574803149606,4.0,0,True,extrapolated
+0,Wet,13,9,2100–2500,2300,1380.0,4.52755905511811,4.0,0,True,extrapolated
+0,Wet,14,0,0–150,75,,,,0,True,infeasible
+0,Wet,14,1,150–300,225,,,,0,True,infeasible
+0,Wet,14,2,300–500,400,,,,0,True,infeasible
+0,Wet,14,3,500–700,600,,,,0,True,infeasible
+0,Wet,14,4,700–900,800,,,,0,True,infeasible
+0,Wet,14,5,900–1100,1000,,,,0,True,infeasible
+0,Wet,14,6,1100–1400,1250,678.4271845542186,2.225810972946911,5.0,0,True,extrapolated
+0,Wet,14,7,1400–1700,1550,930.0,3.0511811023622046,5.0,0,True,extrapolated
+0,Wet,14,8,1700–2100,1900,1140.0,3.7401574803149606,5.0,0,True,extrapolated
+0,Wet,14,9,2100–2500,2300,1380.0,4.52755905511811,5.0,0,True,extrapolated
+1,Critical,1,0,0–150,75,,,,1,True,infeasible
+1,Critical,1,1,150–300,225,,,,0,True,infeasible
+1,Critical,1,2,300–500,400,,,,0,True,infeasible
+1,Critical,1,3,500–700,600,,,,0,True,infeasible
+1,Critical,1,4,700–900,800,,,,0,True,infeasible
+1,Critical,1,5,900–1100,1000,,,,0,True,infeasible
+1,Critical,1,6,1100–1400,1250,,,,0,True,infeasible
+1,Critical,1,7,1400–1700,1550,,,,0,True,infeasible
+1,Critical,1,8,1700–2100,1900,,,,0,True,infeasible
+1,Critical,1,9,2100–2500,2300,,,,0,True,infeasible
+1,Critical,2,0,0–150,75,,,,1,True,infeasible
+1,Critical,2,1,150–300,225,,,,0,True,infeasible
+1,Critical,2,2,300–500,400,,,,0,True,infeasible
+1,Critical,2,3,500–700,600,,,,0,True,infeasible
+1,Critical,2,4,700–900,800,,,,0,True,infeasible
+1,Critical,2,5,900–1100,1000,,,,0,True,infeasible
+1,Critical,2,6,1100–1400,1250,,,,0,True,infeasible
+1,Critical,2,7,1400–1700,1550,,,,0,True,infeasible
+1,Critical,2,8,1700–2100,1900,,,,0,True,infeasible
+1,Critical,2,9,2100–2500,2300,,,,0,True,infeasible
+1,Critical,3,0,0–150,75,,,,1,True,infeasible
+1,Critical,3,1,150–300,225,,,,1,True,infeasible
+1,Critical,3,2,300–500,400,,,,5,True,infeasible
+1,Critical,3,3,500–700,600,,,,3,True,infeasible
+1,Critical,3,4,700–900,800,,,,4,True,infeasible
+1,Critical,3,5,900–1100,1000,,,,0,True,infeasible
+1,Critical,3,6,1100–1400,1250,,,,0,True,infeasible
+1,Critical,3,7,1400–1700,1550,,,,0,True,infeasible
+1,Critical,3,8,1700–2100,1900,,,,0,True,infeasible
+1,Critical,3,9,2100–2500,2300,,,,0,True,infeasible
+1,Critical,4,0,0–150,75,,,,0,True,infeasible
+1,Critical,4,1,150–300,225,,,,2,True,infeasible
+1,Critical,4,2,300–500,400,,,,3,True,infeasible
+1,Critical,4,3,500–700,600,,,,13,True,infeasible
+1,Critical,4,4,700–900,800,,,,19,True,infeasible
+1,Critical,4,5,900–1100,1000,,,,4,True,infeasible
+1,Critical,4,6,1100–1400,1250,,,,0,True,infeasible
+1,Critical,4,7,1400–1700,1550,,,,0,True,infeasible
+1,Critical,4,8,1700–2100,1900,,,,0,True,infeasible
+1,Critical,4,9,2100–2500,2300,,,,0,True,infeasible
+1,Critical,5,0,0–150,75,,,,0,True,infeasible
+1,Critical,5,1,150–300,225,,,,0,True,infeasible
+1,Critical,5,2,300–500,400,41.627,0.13657152230971129,1.0,10,False,observed
+1,Critical,5,3,500–700,600,130.9418085106383,0.42959910928687106,2.0,47,False,observed
+1,Critical,5,4,700–900,800,163.58752747252746,0.5367044864584234,2.0,91,False,observed
+1,Critical,5,5,900–1100,1000,189.42772413793105,0.6214820345732646,2.0,29,False,observed
+1,Critical,5,6,1100–1400,1250,142.7234285714286,0.4682527184101988,2.0,14,False,observed
+1,Critical,5,7,1400–1700,1550,,,,0,True,infeasible
+1,Critical,5,8,1700–2100,1900,,,,0,True,infeasible
+1,Critical,5,9,2100–2500,2300,,,,0,True,infeasible
+1,Critical,6,0,0–150,75,,,,0,True,infeasible
+1,Critical,6,1,150–300,225,,,,0,True,infeasible
+1,Critical,6,2,300–500,400,,,,2,True,infeasible
+1,Critical,6,3,500–700,600,118.72284615384615,0.3895106501110438,2.0,52,False,observed
+1,Critical,6,4,700–900,800,173.36371111111114,0.5687785797608633,2.0,225,False,observed
+1,Critical,6,5,900–1100,1000,186.2347688172043,0.6110064593740299,2.0,186,False,observed
+1,Critical,6,6,1100–1400,1250,159.7036551724138,0.5239621232690741,2.0,58,False,observed
+1,Critical,6,7,1400–1700,1550,,,,2,True,infeasible
+1,Critical,6,8,1700–2100,1900,,,,0,True,infeasible
+1,Critical,6,9,2100–2500,2300,,,,0,True,infeasible
+1,Critical,7,0,0–150,75,,,,0,True,infeasible
+1,Critical,7,1,150–300,225,,,,0,True,infeasible
+1,Critical,7,2,300–500,400,,,,1,True,infeasible
+1,Critical,7,3,500–700,600,129.11092105263157,0.4235922606713634,2.0,38,False,observed
+1,Critical,7,4,700–900,800,180.01033027522936,0.5905850730814611,2.0,327,False,observed
+1,Critical,7,5,900–1100,1000,216.91151552795034,0.7116519538318581,2.0,483,False,observed
+1,Critical,7,6,1100–1400,1250,227.24238793103447,0.7455458921621866,2.0,232,False,observed
+1,Critical,7,7,1400–1700,1550,289.7165714285714,0.9505136857892762,3.0,7,False,observed
+1,Critical,7,8,1700–2100,1900,,,,0,True,infeasible
+1,Critical,7,9,2100–2500,2300,,,,0,True,infeasible
+1,Critical,8,0,0–150,75,,,,0,True,infeasible
+1,Critical,8,1,150–300,225,,,,0,True,infeasible
+1,Critical,8,2,300–500,400,,,,2,True,infeasible
+1,Critical,8,3,500–700,600,86.51759999999999,0.28385039370078735,2.0,10,False,observed
+1,Critical,8,4,700–900,800,185.63038857142854,0.6090235845519308,3.0,175,False,observed
+1,Critical,8,5,900–1100,1000,224.38160268714012,0.7361601138029531,3.0,521,False,observed
+1,Critical,8,6,1100–1400,1250,252.0698424068768,0.8270007952981522,3.0,349,False,observed
+1,Critical,8,7,1400–1700,1550,265.23176666666666,0.8701829615048119,2.0,30,False,observed
+1,Critical,8,8,1700–2100,1900,,,,0,True,infeasible
+1,Critical,8,9,2100–2500,2300,,,,0,True,infeasible
+1,Critical,9,0,0–150,75,,,,0,True,infeasible
+1,Critical,9,1,150–300,225,,,,0,True,infeasible
+1,Critical,9,2,300–500,400,,,,0,True,infeasible
+1,Critical,9,3,500–700,600,,,,4,True,infeasible
+1,Critical,9,4,700–900,800,167.22228888888887,0.5486295567220764,3.0,45,False,observed
+1,Critical,9,5,900–1100,1000,234.82724899598395,0.7704306069422046,3.0,249,False,observed
+1,Critical,9,6,1100–1400,1250,248.76893975903616,0.8161710622015622,3.0,166,False,observed
+1,Critical,9,7,1400–1700,1550,281.0473888888889,0.9220714858559347,3.0,18,False,observed
+1,Critical,9,8,1700–2100,1900,,,,0,True,infeasible
+1,Critical,9,9,2100–2500,2300,,,,0,True,infeasible
+1,Critical,10,0,0–150,75,,,,0,True,infeasible
+1,Critical,10,1,150–300,225,,,,0,True,infeasible
+1,Critical,10,2,300–500,400,,,,0,True,infeasible
+1,Critical,10,3,500–700,600,,,,0,True,infeasible
+1,Critical,10,4,700–900,800,192.57611111111112,0.6318113881598133,3.0,9,False,observed
+1,Critical,10,5,900–1100,1000,256.77029411764704,0.8424222247954299,3.0,68,False,observed
+1,Critical,10,6,1100–1400,1250,264.5844117647059,0.8680590937162267,3.0,51,False,observed
+1,Critical,10,7,1400–1700,1550,723.4534437799065,2.3735349205377507,3.0,4,True,sparse
+1,Critical,10,8,1700–2100,1900,,,,0,True,infeasible
+1,Critical,10,9,2100–2500,2300,,,,0,True,infeasible
+1,Critical,11,0,0–150,75,,,,0,True,infeasible
+1,Critical,11,1,150–300,225,,,,0,True,infeasible
+1,Critical,11,2,300–500,400,,,,0,True,infeasible
+1,Critical,11,3,500–700,600,,,,1,True,infeasible
+1,Critical,11,4,700–900,800,127.89303044383291,0.41959655657425493,3.0,2,True,sparse
+1,Critical,11,5,900–1100,1000,256.97860000000003,0.8431056430446194,3.0,5,False,observed
+1,Critical,11,6,1100–1400,1250,255.44999999999996,0.8380905511811022,4.0,6,False,observed
+1,Critical,11,7,1400–1700,1550,775.1155511833946,2.5430300235675674,3.0,2,True,sparse
+1,Critical,11,8,1700–2100,1900,,,,0,True,infeasible
+1,Critical,11,9,2100–2500,2300,,,,0,True,infeasible
+1,Critical,12,0,0–150,75,,,,0,True,infeasible
+1,Critical,12,1,150–300,225,,,,0,True,infeasible
+1,Critical,12,2,300–500,400,,,,0,True,infeasible
+1,Critical,12,3,500–700,600,,,,0,True,infeasible
+1,Critical,12,4,700–900,800,136.2589004477351,0.4470436366395508,3.0,1,True,sparse
+1,Critical,12,5,900–1100,1000,250.53346344332587,0.8219601819006754,3.0,0,True,extrapolated
+1,Critical,12,6,1100–1400,1250,459.9470353136501,1.509012583050033,3.0,1,True,sparse
+1,Critical,12,7,1400–1700,1550,825.4897396623951,2.708299670808383,3.0,0,True,extrapolated
+1,Critical,12,8,1700–2100,1900,,,,0,True,infeasible
+1,Critical,12,9,2100–2500,2300,,,,0,True,infeasible
+1,Critical,13,0,0–150,75,,,,0,True,infeasible
+1,Critical,13,1,150–300,225,,,,0,True,infeasible
+1,Critical,13,2,300–500,400,,,,0,True,infeasible
+1,Critical,13,3,500–700,600,,,,0,True,infeasible
+1,Critical,13,4,700–900,800,,,,0,True,infeasible
+1,Critical,13,5,900–1100,1000,,,,0,True,infeasible
+1,Critical,13,6,1100–1400,1250,487.3990213428917,1.5990781540121117,4.0,0,True,extrapolated
+1,Critical,13,7,1400–1700,1550,874.711847731894,2.869789526679442,4.0,0,True,extrapolated
+1,Critical,13,8,1700–2100,1900,1140.0,3.7401574803149606,4.0,0,True,extrapolated
+1,Critical,13,9,2100–2500,2300,1380.0,4.52755905511811,4.0,0,True,extrapolated
+1,Critical,14,0,0–150,75,,,,0,True,infeasible
+1,Critical,14,1,150–300,225,,,,0,True,infeasible
+1,Critical,14,2,300–500,400,,,,0,True,infeasible
+1,Critical,14,3,500–700,600,,,,0,True,infeasible
+1,Critical,14,4,700–900,800,,,,0,True,infeasible
+1,Critical,14,5,900–1100,1000,,,,0,True,infeasible
+1,Critical,14,6,1100–1400,1250,514.2710617513789,1.6872410162446811,5.0,0,True,extrapolated
+1,Critical,14,7,1400–1700,1550,922.8940985761706,3.0278677774808744,5.0,0,True,extrapolated
+1,Critical,14,8,1700–2100,1900,1140.0,3.7401574803149606,5.0,0,True,extrapolated
+1,Critical,14,9,2100–2500,2300,1380.0,4.52755905511811,5.0,0,True,extrapolated
+1,Dry,1,0,0–150,75,,,,0,True,infeasible
+1,Dry,1,1,150–300,225,,,,0,True,infeasible
+1,Dry,1,2,300–500,400,,,,0,True,infeasible
+1,Dry,1,3,500–700,600,,,,0,True,infeasible
+1,Dry,1,4,700–900,800,,,,0,True,infeasible
+1,Dry,1,5,900–1100,1000,,,,0,True,infeasible
+1,Dry,1,6,1100–1400,1250,,,,0,True,infeasible
+1,Dry,1,7,1400–1700,1550,,,,0,True,infeasible
+1,Dry,1,8,1700–2100,1900,,,,0,True,infeasible
+1,Dry,1,9,2100–2500,2300,,,,0,True,infeasible
+1,Dry,2,0,0–150,75,,,,0,True,infeasible
+1,Dry,2,1,150–300,225,,,,0,True,infeasible
+1,Dry,2,2,300–500,400,,,,0,True,infeasible
+1,Dry,2,3,500–700,600,,,,0,True,infeasible
+1,Dry,2,4,700–900,800,,,,0,True,infeasible
+1,Dry,2,5,900–1100,1000,,,,0,True,infeasible
+1,Dry,2,6,1100–1400,1250,,,,0,True,infeasible
+1,Dry,2,7,1400–1700,1550,,,,0,True,infeasible
+1,Dry,2,8,1700–2100,1900,,,,0,True,infeasible
+1,Dry,2,9,2100–2500,2300,,,,0,True,infeasible
+1,Dry,3,0,0–150,75,,,,0,True,infeasible
+1,Dry,3,1,150–300,225,,,,0,True,infeasible
+1,Dry,3,2,300–500,400,,,,0,True,infeasible
+1,Dry,3,3,500–700,600,,,,1,True,infeasible
+1,Dry,3,4,700–900,800,,,,1,True,infeasible
+1,Dry,3,5,900–1100,1000,,,,0,True,infeasible
+1,Dry,3,6,1100–1400,1250,,,,0,True,infeasible
+1,Dry,3,7,1400–1700,1550,,,,0,True,infeasible
+1,Dry,3,8,1700–2100,1900,,,,0,True,infeasible
+1,Dry,3,9,2100–2500,2300,,,,0,True,infeasible
+1,Dry,4,0,0–150,75,,,,0,True,infeasible
+1,Dry,4,1,150–300,225,,,,0,True,infeasible
+1,Dry,4,2,300–500,400,,,,1,True,infeasible
+1,Dry,4,3,500–700,600,,,,2,True,infeasible
+1,Dry,4,4,700–900,800,,,,10,True,infeasible
+1,Dry,4,5,900–1100,1000,,,,0,True,infeasible
+1,Dry,4,6,1100–1400,1250,,,,0,True,infeasible
+1,Dry,4,7,1400–1700,1550,,,,0,True,infeasible
+1,Dry,4,8,1700–2100,1900,,,,0,True,infeasible
+1,Dry,4,9,2100–2500,2300,,,,0,True,infeasible
+1,Dry,5,0,0–150,75,,,,0,True,infeasible
+1,Dry,5,1,150–300,225,,,,0,True,infeasible
+1,Dry,5,2,300–500,400,10.49258035355296,0.03442447622556745,2.0,1,True,sparse
+1,Dry,5,3,500–700,600,68.35614285714286,0.22426556055493063,1.0,14,False,observed
+1,Dry,5,4,700–900,800,175.04920588235296,0.5743084182491895,2.0,34,False,observed
+1,Dry,5,5,900–1100,1000,210.1437272727273,0.6894479241231211,2.0,11,False,observed
+1,Dry,5,6,1100–1400,1250,,,,1,True,infeasible
+1,Dry,5,7,1400–1700,1550,,,,0,True,infeasible
+1,Dry,5,8,1700–2100,1900,,,,0,True,infeasible
+1,Dry,5,9,2100–2500,2300,,,,0,True,infeasible
+1,Dry,6,0,0–150,75,,,,0,True,infeasible
+1,Dry,6,1,150–300,225,,,,0,True,infeasible
+1,Dry,6,2,300–500,400,,,,0,True,infeasible
+1,Dry,6,3,500–700,600,99.95211764705883,0.32792689516751583,2.0,17,False,observed
+1,Dry,6,4,700–900,800,174.30885,0.5718794291338583,2.0,120,False,observed
+1,Dry,6,5,900–1100,1000,225.58174647887324,0.7400975934346234,2.0,71,False,observed
+1,Dry,6,6,1100–1400,1250,137.8024,0.45210761154855644,2.0,5,False,observed
+1,Dry,6,7,1400–1700,1550,,,,0,True,infeasible
+1,Dry,6,8,1700–2100,1900,,,,0,True,infeasible
+1,Dry,6,9,2100–2500,2300,,,,0,True,infeasible
+1,Dry,7,0,0–150,75,,,,0,True,infeasible
+1,Dry,7,1,150–300,225,,,,0,True,infeasible
+1,Dry,7,2,300–500,400,,,,1,True,infeasible
+1,Dry,7,3,500–700,600,96.62953846153846,0.3170260448213204,2.0,13,False,observed
+1,Dry,7,4,700–900,800,189.30616447368425,0.6210832167771793,2.0,152,False,observed
+1,Dry,7,5,900–1100,1000,218.36263414634146,0.716412841687472,2.0,287,False,observed
+1,Dry,7,6,1100–1400,1250,240.37428985507248,0.78862955989197,2.0,69,False,observed
+1,Dry,7,7,1400–1700,1550,,,,0,True,infeasible
+1,Dry,7,8,1700–2100,1900,,,,0,True,infeasible
+1,Dry,7,9,2100–2500,2300,,,,0,True,infeasible
+1,Dry,8,0,0–150,75,,,,0,True,infeasible
+1,Dry,8,1,150–300,225,,,,0,True,infeasible
+1,Dry,8,2,300–500,400,,,,1,True,infeasible
+1,Dry,8,3,500–700,600,75.368875,0.2472732119422572,2.0,8,False,observed
+1,Dry,8,4,700–900,800,184.17355056179775,0.6042439322893627,3.0,89,False,observed
+1,Dry,8,5,900–1100,1000,227.96133240223466,0.7479046338655992,3.0,358,False,observed
+1,Dry,8,6,1100–1400,1250,240.02695360824745,0.7874900052764023,3.0,194,False,observed
+1,Dry,8,7,1400–1700,1550,,,,1,True,infeasible
+1,Dry,8,8,1700–2100,1900,,,,0,True,infeasible
+1,Dry,8,9,2100–2500,2300,,,,0,True,infeasible
+1,Dry,9,0,0–150,75,,,,0,True,infeasible
+1,Dry,9,1,150–300,225,,,,0,True,infeasible
+1,Dry,9,2,300–500,400,,,,0,True,infeasible
+1,Dry,9,3,500–700,600,,,,0,True,infeasible
+1,Dry,9,4,700–900,800,154.55725,0.5070775918635171,3.0,16,False,observed
+1,Dry,9,5,900–1100,1000,235.32625581395348,0.7720677684184826,3.0,129,False,observed
+1,Dry,9,6,1100–1400,1250,268.0114647887324,0.8793027059997781,3.0,142,False,observed
+1,Dry,9,7,1400–1700,1550,693.596989044361,2.2755806727177195,3.0,3,True,sparse
+1,Dry,9,8,1700–2100,1900,,,,0,True,infeasible
+1,Dry,9,9,2100–2500,2300,,,,0,True,infeasible
+1,Dry,10,0,0–150,75,,,,0,True,infeasible
+1,Dry,10,1,150–300,225,,,,0,True,infeasible
+1,Dry,10,2,300–500,400,,,,0,True,infeasible
+1,Dry,10,3,500–700,600,,,,0,True,infeasible
+1,Dry,10,4,700–900,800,123.48196735058801,0.40512456479851705,3.0,1,True,sparse
+1,Dry,10,5,900–1100,1000,236.50227777777778,0.775926108194809,3.0,18,False,observed
+1,Dry,10,6,1100–1400,1250,286.7206,0.9406843832020997,3.0,15,False,observed
+1,Dry,10,7,1400–1700,1550,748.554808122812,2.455888478093215,3.0,1,True,sparse
+1,Dry,10,8,1700–2100,1900,,,,0,True,infeasible
+1,Dry,10,9,2100–2500,2300,,,,0,True,infeasible
+1,Dry,11,0,0–150,75,,,,0,True,infeasible
+1,Dry,11,1,150–300,225,,,,0,True,infeasible
+1,Dry,11,2,300–500,400,,,,0,True,infeasible
+1,Dry,11,3,500–700,600,,,,0,True,infeasible
+1,Dry,11,4,700–900,800,132.35900537460404,0.43424870529725734,3.0,0,True,extrapolated
+1,Dry,11,5,900–1100,1000,243.38672023315604,0.798512861657336,3.0,1,True,sparse
+1,Dry,11,6,1100–1400,1250,446.8502884642275,1.46604425349156,3.0,1,True,sparse
+1,Dry,11,7,1400–1700,1550,784.5201395106467,2.5738849721477908,3.0,1,True,sparse
+1,Dry,11,8,1700–2100,1900,,,,0,True,infeasible
+1,Dry,11,9,2100–2500,2300,,,,0,True,infeasible
+1,Dry,12,0,0–150,75,,,,0,True,infeasible
+1,Dry,12,1,150–300,225,,,,0,True,infeasible
+1,Dry,12,2,300–500,400,,,,0,True,infeasible
+1,Dry,12,3,500–700,600,,,,0,True,infeasible
+1,Dry,12,4,700–900,800,141.01474183275025,0.462646790789863,3.0,0,True,extrapolated
+1,Dry,12,5,900–1100,1000,259.24876898094715,0.850553704005732,3.0,0,True,extrapolated
+1,Dry,12,6,1100–1400,1250,475.91824723283213,1.5614115722861945,3.0,0,True,extrapolated
+1,Dry,12,7,1400–1700,1550,854.1265282083846,2.80225238913512,3.0,0,True,extrapolated
+1,Dry,12,8,1700–2100,1900,,,,0,True,infeasible
+1,Dry,12,9,2100–2500,2300,,,,0,True,infeasible
+1,Dry,13,0,0–150,75,,,,0,True,infeasible
+1,Dry,13,1,150–300,225,,,,0,True,infeasible
+1,Dry,13,2,300–500,400,,,,0,True,infeasible
+1,Dry,13,3,500–700,600,,,,0,True,infeasible
+1,Dry,13,4,700–900,800,,,,0,True,infeasible
+1,Dry,13,5,900–1100,1000,,,,0,True,infeasible
+1,Dry,13,6,1100–1400,1250,504.3214086746178,1.6545977974889037,4.0,0,True,extrapolated
+1,Dry,13,7,1400–1700,1550,905.0541179468389,2.969337657305902,4.0,0,True,extrapolated
+1,Dry,13,8,1700–2100,1900,1140.0,3.7401574803149606,4.0,0,True,extrapolated
+1,Dry,13,9,2100–2500,2300,1380.0,4.52755905511811,4.0,0,True,extrapolated
+1,Dry,14,0,0–150,75,,,,0,True,infeasible
+1,Dry,14,1,150–300,225,,,,0,True,infeasible
+1,Dry,14,2,300–500,400,,,,0,True,infeasible
+1,Dry,14,3,500–700,600,,,,0,True,infeasible
+1,Dry,14,4,700–900,800,,,,0,True,infeasible
+1,Dry,14,5,900–1100,1000,,,,0,True,infeasible
+1,Dry,14,6,1100–1400,1250,532.124530138378,1.7458153875931035,5.0,0,True,extrapolated
+1,Dry,14,7,1400–1700,1550,930.0,3.0511811023622046,5.0,0,True,extrapolated
+1,Dry,14,8,1700–2100,1900,1140.0,3.7401574803149606,5.0,0,True,extrapolated
+1,Dry,14,9,2100–2500,2300,1380.0,4.52755905511811,5.0,0,True,extrapolated
+1,Above Normal,1,0,0–150,75,,,,10,True,infeasible
+1,Above Normal,1,1,150–300,225,,,,13,True,infeasible
+1,Above Normal,1,2,300–500,400,,,,2,True,infeasible
+1,Above Normal,1,3,500–700,600,,,,0,True,infeasible
+1,Above Normal,1,4,700–900,800,,,,0,True,infeasible
+1,Above Normal,1,5,900–1100,1000,,,,0,True,infeasible
+1,Above Normal,1,6,1100–1400,1250,,,,0,True,infeasible
+1,Above Normal,1,7,1400–1700,1550,,,,0,True,infeasible
+1,Above Normal,1,8,1700–2100,1900,,,,0,True,infeasible
+1,Above Normal,1,9,2100–2500,2300,,,,0,True,infeasible
+1,Above Normal,2,0,0–150,75,,,,9,True,infeasible
+1,Above Normal,2,1,150–300,225,,,,34,True,infeasible
+1,Above Normal,2,2,300–500,400,,,,24,True,infeasible
+1,Above Normal,2,3,500–700,600,,,,4,True,infeasible
+1,Above Normal,2,4,700–900,800,,,,2,True,infeasible
+1,Above Normal,2,5,900–1100,1000,,,,0,True,infeasible
+1,Above Normal,2,6,1100–1400,1250,,,,0,True,infeasible
+1,Above Normal,2,7,1400–1700,1550,,,,0,True,infeasible
+1,Above Normal,2,8,1700–2100,1900,,,,0,True,infeasible
+1,Above Normal,2,9,2100–2500,2300,,,,0,True,infeasible
+1,Above Normal,3,0,0–150,75,,,,9,True,infeasible
+1,Above Normal,3,1,150–300,225,,,,22,True,infeasible
+1,Above Normal,3,2,300–500,400,,,,33,True,infeasible
+1,Above Normal,3,3,500–700,600,,,,9,True,infeasible
+1,Above Normal,3,4,700–900,800,,,,8,True,infeasible
+1,Above Normal,3,5,900–1100,1000,,,,0,True,infeasible
+1,Above Normal,3,6,1100–1400,1250,,,,0,True,infeasible
+1,Above Normal,3,7,1400–1700,1550,,,,0,True,infeasible
+1,Above Normal,3,8,1700–2100,1900,,,,0,True,infeasible
+1,Above Normal,3,9,2100–2500,2300,,,,0,True,infeasible
+1,Above Normal,4,0,0–150,75,,,,2,True,infeasible
+1,Above Normal,4,1,150–300,225,,,,20,True,infeasible
+1,Above Normal,4,2,300–500,400,,,,49,True,infeasible
+1,Above Normal,4,3,500–700,600,,,,26,True,infeasible
+1,Above Normal,4,4,700–900,800,,,,14,True,infeasible
+1,Above Normal,4,5,900–1100,1000,,,,2,True,infeasible
+1,Above Normal,4,6,1100–1400,1250,,,,0,True,infeasible
+1,Above Normal,4,7,1400–1700,1550,,,,0,True,infeasible
+1,Above Normal,4,8,1700–2100,1900,,,,0,True,infeasible
+1,Above Normal,4,9,2100–2500,2300,,,,0,True,infeasible
+1,Above Normal,5,0,0–150,75,,,,0,True,infeasible
+1,Above Normal,5,1,150–300,225,9.2415,0.03031988188976378,0.0,12,False,observed
+1,Above Normal,5,2,300–500,400,5.5943695652173915,0.01835423085701244,1.0,46,False,observed
+1,Above Normal,5,3,500–700,600,84.56135820895524,0.2774322775884358,2.0,67,False,observed
+1,Above Normal,5,4,700–900,800,159.75810227272726,0.5241407554879502,2.0,88,False,observed
+1,Above Normal,5,5,900–1100,1000,210.10322222222223,0.6893150335374745,2.0,27,False,observed
+1,Above Normal,5,6,1100–1400,1250,,,,1,True,infeasible
+1,Above Normal,5,7,1400–1700,1550,,,,0,True,infeasible
+1,Above Normal,5,8,1700–2100,1900,,,,0,True,infeasible
+1,Above Normal,5,9,2100–2500,2300,,,,0,True,infeasible
+1,Above Normal,6,0,0–150,75,,,,0,True,infeasible
+1,Above Normal,6,1,150–300,225,0.0,0.0,0.0,7,False,observed
+1,Above Normal,6,2,300–500,400,20.17363043478261,0.06618645155768572,1.0,46,False,observed
+1,Above Normal,6,3,500–700,600,73.61352,0.24151417322834642,2.0,50,False,observed
+1,Above Normal,6,4,700–900,800,159.52945299145298,0.5233905938039796,2.0,117,False,observed
+1,Above Normal,6,5,900–1100,1000,192.73137499999999,0.6323207841207349,2.0,72,False,observed
+1,Above Normal,6,6,1100–1400,1250,200.46915,0.6577071850393701,2.0,20,False,observed
+1,Above Normal,6,7,1400–1700,1550,,,,0,True,infeasible
+1,Above Normal,6,8,1700–2100,1900,,,,0,True,infeasible
+1,Above Normal,6,9,2100–2500,2300,,,,0,True,infeasible
+1,Above Normal,7,0,0–150,75,,,,0,True,infeasible
+1,Above Normal,7,1,150–300,225,,,,2,True,infeasible
+1,Above Normal,7,2,300–500,400,12.466500000000002,0.04090059055118111,1.0,6,False,observed
+1,Above Normal,7,3,500–700,600,62.53445652173914,0.20516553976948534,2.0,46,False,observed
+1,Above Normal,7,4,700–900,800,171.34018571428575,0.5621397169103863,2.0,140,False,observed
+1,Above Normal,7,5,900–1100,1000,204.93367664670657,0.6723545821742342,2.0,167,False,observed
+1,Above Normal,7,6,1100–1400,1250,198.9581694915254,0.6527498999065794,2.0,59,False,observed
+1,Above Normal,7,7,1400–1700,1550,,,,0,True,infeasible
+1,Above Normal,7,8,1700–2100,1900,,,,0,True,infeasible
+1,Above Normal,7,9,2100–2500,2300,,,,0,True,infeasible
+1,Above Normal,8,0,0–150,75,,,,0,True,infeasible
+1,Above Normal,8,1,150–300,225,,,,2,True,infeasible
+1,Above Normal,8,2,300–500,400,,,,4,True,infeasible
+1,Above Normal,8,3,500–700,600,69.47038888888889,0.22792122338874307,2.0,18,False,observed
+1,Above Normal,8,4,700–900,800,153.74959322033897,0.5044277992793273,2.0,59,False,observed
+1,Above Normal,8,5,900–1100,1000,192.88825396825396,0.632835478898471,2.0,126,False,observed
+1,Above Normal,8,6,1100–1400,1250,232.30283333333335,0.7621484033245844,2.0,114,False,observed
+1,Above Normal,8,7,1400–1700,1550,,,,3,True,infeasible
+1,Above Normal,8,8,1700–2100,1900,,,,0,True,infeasible
+1,Above Normal,8,9,2100–2500,2300,,,,0,True,infeasible
+1,Above Normal,9,0,0–150,75,,,,0,True,infeasible
+1,Above Normal,9,1,150–300,225,,,,0,True,infeasible
+1,Above Normal,9,2,300–500,400,,,,2,True,infeasible
+1,Above Normal,9,3,500–700,600,,,,2,True,infeasible
+1,Above Normal,9,4,700–900,800,171.33164705882353,0.5621117029488961,2.0,17,False,observed
+1,Above Normal,9,5,900–1100,1000,232.34837288135597,0.762297811290538,3.0,59,False,observed
+1,Above Normal,9,6,1100–1400,1250,233.8848888888889,0.7673388743073782,2.0,54,False,observed
+1,Above Normal,9,7,1400–1700,1550,449.2762063441471,1.474003301654026,3.0,4,True,sparse
+1,Above Normal,9,8,1700–2100,1900,,,,0,True,infeasible
+1,Above Normal,9,9,2100–2500,2300,,,,0,True,infeasible
+1,Above Normal,10,0,0–150,75,,,,0,True,infeasible
+1,Above Normal,10,1,150–300,225,,,,0,True,infeasible
+1,Above Normal,10,2,300–500,400,,,,0,True,infeasible
+1,Above Normal,10,3,500–700,600,,,,0,True,infeasible
+1,Above Normal,10,4,700–900,800,79.69609989815113,0.26147014402280555,3.0,0,True,extrapolated
+1,Above Normal,10,5,900–1100,1000,266.71500000000003,0.8750492125984253,3.0,10,False,observed
+1,Above Normal,10,6,1100–1400,1250,269.9961094551423,0.8858140073987607,3.0,1,True,sparse
+1,Above Normal,10,7,1400–1700,1550,484.90290596120013,1.5908887990853022,3.0,0,True,extrapolated
+1,Above Normal,10,8,1700–2100,1900,,,,0,True,infeasible
+1,Above Normal,10,9,2100–2500,2300,,,,0,True,infeasible
+1,Above Normal,11,0,0–150,75,,,,0,True,infeasible
+1,Above Normal,11,1,150–300,225,,,,0,True,infeasible
+1,Above Normal,11,2,300–500,400,,,,0,True,infeasible
+1,Above Normal,11,3,500–700,600,,,,0,True,infeasible
+1,Above Normal,11,4,700–900,800,85.45068718843869,0.2803500235841164,3.0,0,True,extrapolated
+1,Above Normal,11,5,900–1100,1000,157.42499608135506,0.5164862076159943,3.0,4,True,sparse
+1,Above Normal,11,6,1100–1400,1250,289.32134040380265,0.949216996075468,3.0,1,True,sparse
+1,Above Normal,11,7,1400–1700,1550,519.5535357994108,1.704571967845836,3.0,0,True,extrapolated
+1,Above Normal,11,8,1700–2100,1900,,,,0,True,infeasible
+1,Above Normal,11,9,2100–2500,2300,,,,0,True,infeasible
+1,Above Normal,12,0,0–150,75,,,,0,True,infeasible
+1,Above Normal,12,1,150–300,225,,,,0,True,infeasible
+1,Above Normal,12,2,300–500,400,,,,0,True,infeasible
+1,Above Normal,12,3,500–700,600,,,,0,True,infeasible
+1,Above Normal,12,4,700–900,800,91.06181455720402,0.29875923411156174,3.0,0,True,extrapolated
+1,Above Normal,12,5,900–1100,1000,167.7076538637158,0.5502219614951305,3.0,0,True,extrapolated
+1,Above Normal,12,6,1100–1400,1250,308.16479985861963,1.0110393696148938,3.0,0,True,extrapolated
+1,Above Normal,12,7,1400–1700,1550,553.3403371149966,1.8154210535268918,3.0,0,True,extrapolated
+1,Above Normal,12,8,1700–2100,1900,,,,0,True,infeasible
+1,Above Normal,12,9,2100–2500,2300,,,,0,True,infeasible
+1,Above Normal,13,0,0–150,75,,,,0,True,infeasible
+1,Above Normal,13,1,150–300,225,,,,0,True,infeasible
+1,Above Normal,13,2,300–500,400,,,,0,True,infeasible
+1,Above Normal,13,3,500–700,600,,,,0,True,infeasible
+1,Above Normal,13,4,700–900,800,,,,0,True,infeasible
+1,Above Normal,13,5,900–1100,1000,,,,0,True,infeasible
+1,Above Normal,13,6,1100–1400,1250,326.57730089721946,1.0714478375893026,4.0,0,True,extrapolated
+1,Above Normal,13,7,1400–1700,1550,586.3544190464945,1.923734970624982,4.0,0,True,extrapolated
+1,Above Normal,13,8,1700–2100,1900,1019.7399944766072,3.345603656419315,4.0,0,True,extrapolated
+1,Above Normal,13,9,2100–2500,2300,1380.0,4.52755905511811,4.0,0,True,extrapolated
+1,Above Normal,14,0,0–150,75,,,,0,True,infeasible
+1,Above Normal,14,1,150–300,225,,,,0,True,infeasible
+1,Above Normal,14,2,300–500,400,,,,0,True,infeasible
+1,Above Normal,14,3,500–700,600,,,,0,True,infeasible
+1,Above Normal,14,4,700–900,800,,,,0,True,infeasible
+1,Above Normal,14,5,900–1100,1000,,,,0,True,infeasible
+1,Above Normal,14,6,1100–1400,1250,344.600822816673,1.1305801273512892,4.0,0,True,extrapolated
+1,Above Normal,14,7,1400–1700,1550,618.6710515395802,2.0297606677807747,4.0,0,True,extrapolated
+1,Above Normal,14,8,1700–2100,1900,1075.901790834665,3.5298615184864337,4.0,0,True,extrapolated
+1,Above Normal,14,9,2100–2500,2300,1380.0,4.52755905511811,4.0,0,True,extrapolated
+1,Wet,1,0,0–150,75,,,,1,True,infeasible
+1,Wet,1,1,150–300,225,,,,0,True,infeasible
+1,Wet,1,2,300–500,400,,,,0,True,infeasible
+1,Wet,1,3,500–700,600,,,,0,True,infeasible
+1,Wet,1,4,700–900,800,,,,0,True,infeasible
+1,Wet,1,5,900–1100,1000,,,,0,True,infeasible
+1,Wet,1,6,1100–1400,1250,,,,0,True,infeasible
+1,Wet,1,7,1400–1700,1550,,,,0,True,infeasible
+1,Wet,1,8,1700–2100,1900,,,,0,True,infeasible
+1,Wet,1,9,2100–2500,2300,,,,0,True,infeasible
+1,Wet,2,0,0–150,75,,,,8,True,infeasible
+1,Wet,2,1,150–300,225,,,,10,True,infeasible
+1,Wet,2,2,300–500,400,,,,3,True,infeasible
+1,Wet,2,3,500–700,600,,,,0,True,infeasible
+1,Wet,2,4,700–900,800,,,,0,True,infeasible
+1,Wet,2,5,900–1100,1000,,,,0,True,infeasible
+1,Wet,2,6,1100–1400,1250,,,,0,True,infeasible
+1,Wet,2,7,1400–1700,1550,,,,0,True,infeasible
+1,Wet,2,8,1700–2100,1900,,,,0,True,infeasible
+1,Wet,2,9,2100–2500,2300,,,,0,True,infeasible
+1,Wet,3,0,0–150,75,,,,4,True,infeasible
+1,Wet,3,1,150–300,225,,,,24,True,infeasible
+1,Wet,3,2,300–500,400,,,,13,True,infeasible
+1,Wet,3,3,500–700,600,,,,6,True,infeasible
+1,Wet,3,4,700–900,800,,,,4,True,infeasible
+1,Wet,3,5,900–1100,1000,,,,0,True,infeasible
+1,Wet,3,6,1100–1400,1250,,,,0,True,infeasible
+1,Wet,3,7,1400–1700,1550,,,,0,True,infeasible
+1,Wet,3,8,1700–2100,1900,,,,0,True,infeasible
+1,Wet,3,9,2100–2500,2300,,,,0,True,infeasible
+1,Wet,4,0,0–150,75,,,,6,True,infeasible
+1,Wet,4,1,150–300,225,,,,17,True,infeasible
+1,Wet,4,2,300–500,400,,,,46,True,infeasible
+1,Wet,4,3,500–700,600,,,,29,True,infeasible
+1,Wet,4,4,700–900,800,,,,18,True,infeasible
+1,Wet,4,5,900–1100,1000,,,,6,True,infeasible
+1,Wet,4,6,1100–1400,1250,,,,0,True,infeasible
+1,Wet,4,7,1400–1700,1550,,,,0,True,infeasible
+1,Wet,4,8,1700–2100,1900,,,,0,True,infeasible
+1,Wet,4,9,2100–2500,2300,,,,0,True,infeasible
+1,Wet,5,0,0–150,75,,,,2,True,infeasible
+1,Wet,5,1,150–300,225,0.0,0.0,0.0,11,False,observed
+1,Wet,5,2,300–500,400,12.716265625000002,0.041720031578083995,1.0,64,False,observed
+1,Wet,5,3,500–700,600,102.0738064516129,0.33488781644229954,2.0,93,False,observed
+1,Wet,5,4,700–900,800,184.92711827956987,0.6067162673214235,2.0,93,False,observed
+1,Wet,5,5,900–1100,1000,209.0032666666667,0.6857062554680665,2.0,15,False,observed
+1,Wet,5,6,1100–1400,1250,243.2727142857143,0.7981388263967004,2.0,7,False,observed
+1,Wet,5,7,1400–1700,1550,,,,0,True,infeasible
+1,Wet,5,8,1700–2100,1900,,,,0,True,infeasible
+1,Wet,5,9,2100–2500,2300,,,,0,True,infeasible
+1,Wet,6,0,0–150,75,,,,0,True,infeasible
+1,Wet,6,1,150–300,225,,,,2,True,infeasible
+1,Wet,6,2,300–500,400,33.52834285714286,0.11000112485939258,1.0,35,False,observed
+1,Wet,6,3,500–700,600,115.87566379310346,0.3801695006335415,2.0,116,False,observed
+1,Wet,6,4,700–900,800,186.57045394736843,0.612107788541235,2.0,304,False,observed
+1,Wet,6,5,900–1100,1000,198.55494852941177,0.6514269964875714,2.0,136,False,observed
+1,Wet,6,6,1100–1400,1250,221.28203333333335,0.7259909230096238,2.0,30,False,observed
+1,Wet,6,7,1400–1700,1550,,,,0,True,infeasible
+1,Wet,6,8,1700–2100,1900,,,,0,True,infeasible
+1,Wet,6,9,2100–2500,2300,,,,0,True,infeasible
+1,Wet,7,0,0–150,75,,,,0,True,infeasible
+1,Wet,7,1,150–300,225,,,,2,True,infeasible
+1,Wet,7,2,300–500,400,21.7611,0.07139468503937008,1.0,10,False,observed
+1,Wet,7,3,500–700,600,134.542125,0.44141117125984247,2.0,80,False,observed
+1,Wet,7,4,700–900,800,201.84058888888887,0.6622066564596092,2.0,360,False,observed
+1,Wet,7,5,900–1100,1000,227.12586815920397,0.7451636094462072,2.0,402,False,observed
+1,Wet,7,6,1100–1400,1250,220.85826415094346,0.724600604169762,2.0,159,False,observed
+1,Wet,7,7,1400–1700,1550,295.9934,0.9711069553805775,3.0,5,False,observed
+1,Wet,7,8,1700–2100,1900,,,,0,True,infeasible
+1,Wet,7,9,2100–2500,2300,,,,0,True,infeasible
+1,Wet,8,0,0–150,75,,,,0,True,infeasible
+1,Wet,8,1,150–300,225,,,,0,True,infeasible
+1,Wet,8,2,300–500,400,,,,2,True,infeasible
+1,Wet,8,3,500–700,600,135.4525833333333,0.4443982392825896,2.0,24,False,observed
+1,Wet,8,4,700–900,800,202.79606521739132,0.6653414213169007,3.0,230,False,observed
+1,Wet,8,5,900–1100,1000,238.02617840375586,0.7809257821645533,3.0,426,False,observed
+1,Wet,8,6,1100–1400,1250,246.93967796610175,0.8101695471328797,3.0,295,False,observed
+1,Wet,8,7,1400–1700,1550,333.21500000000003,1.0932250656167979,3.0,5,False,observed
+1,Wet,8,8,1700–2100,1900,,,,0,True,infeasible
+1,Wet,8,9,2100–2500,2300,,,,0,True,infeasible
+1,Wet,9,0,0–150,75,,,,0,True,infeasible
+1,Wet,9,1,150–300,225,,,,0,True,infeasible
+1,Wet,9,2,300–500,400,,,,1,True,infeasible
+1,Wet,9,3,500–700,600,,,,3,True,infeasible
+1,Wet,9,4,700–900,800,220.84020000000004,0.7245413385826772,3.0,50,False,observed
+1,Wet,9,5,900–1100,1000,251.0172897727273,0.8235475386244334,3.0,176,False,observed
+1,Wet,9,6,1100–1400,1250,260.9310357142857,0.8560729518185226,3.0,140,False,observed
+1,Wet,9,7,1400–1700,1550,702.3452770895683,2.304282405149502,3.0,3,True,sparse
+1,Wet,9,8,1700–2100,1900,,,,0,True,infeasible
+1,Wet,9,9,2100–2500,2300,,,,0,True,infeasible
+1,Wet,10,0,0–150,75,,,,0,True,infeasible
+1,Wet,10,1,150–300,225,,,,0,True,infeasible
+1,Wet,10,2,300–500,400,,,,3,True,infeasible
+1,Wet,10,3,500–700,600,,,,0,True,infeasible
+1,Wet,10,4,700–900,800,208.1809166666667,0.6830082567804024,3.0,12,False,observed
+1,Wet,10,5,900–1100,1000,279.48891428571426,0.9169583802024746,3.0,35,False,observed
+1,Wet,10,6,1100–1400,1250,284.25022580645157,0.9325794809922952,3.0,31,False,observed
+1,Wet,10,7,1400–1700,1550,757.9952771581733,2.4868611455320644,3.0,4,True,sparse
+1,Wet,10,8,1700–2100,1900,,,,0,True,infeasible
+1,Wet,10,9,2100–2500,2300,,,,0,True,infeasible
+1,Wet,11,0,0–150,75,,,,0,True,infeasible
+1,Wet,11,1,150–300,225,,,,0,True,infeasible
+1,Wet,11,2,300–500,400,,,,0,True,infeasible
+1,Wet,11,3,500–700,600,,,,0,True,infeasible
+1,Wet,11,4,700–900,800,134.03863113002876,0.4397592884843463,3.0,0,True,extrapolated
+1,Wet,11,5,900–1100,1000,229.765125,0.7538225885826771,3.0,8,False,observed
+1,Wet,11,6,1100–1400,1250,247.28359999999998,0.8112979002624671,3.0,10,False,observed
+1,Wet,11,7,1400–1700,1550,784.5201395106467,2.5738849721477908,3.0,0,True,extrapolated
+1,Wet,11,8,1700–2100,1900,,,,0,True,infeasible
+1,Wet,11,9,2100–2500,2300,,,,0,True,infeasible
+1,Wet,12,0,0–150,75,,,,0,True,infeasible
+1,Wet,12,1,150–300,225,,,,0,True,infeasible
+1,Wet,12,2,300–500,400,,,,0,True,infeasible
+1,Wet,12,3,500–700,600,,,,0,True,infeasible
+1,Wet,12,4,700–900,800,142.80338458216377,0.4685150412800648,3.0,0,True,extrapolated
+1,Wet,12,5,900–1100,1000,262.5265418915213,0.861307552137537,3.0,0,True,extrapolated
+1,Wet,12,6,1100–1400,1250,481.9249219904472,1.5811185104673464,3.0,1,True,sparse
+1,Wet,12,7,1400–1700,1550,864.8966485830169,2.8375874297343073,3.0,0,True,extrapolated
+1,Wet,12,8,1700–2100,1900,,,,0,True,infeasible
+1,Wet,12,9,2100–2500,2300,,,,0,True,infeasible
+1,Wet,13,0,0–150,75,,,,0,True,infeasible
+1,Wet,13,1,150–300,225,,,,0,True,infeasible
+1,Wet,13,2,300–500,400,,,,0,True,infeasible
+1,Wet,13,3,500–700,600,,,,0,True,infeasible
+1,Wet,13,4,700–900,800,,,,0,True,infeasible
+1,Wet,13,5,900–1100,1000,,,,0,True,infeasible
+1,Wet,13,6,1100–1400,1250,510.6858146657488,1.6754783945726666,4.0,0,True,extrapolated
+1,Wet,13,7,1400–1700,1550,916.4656595074358,3.0067770981215083,4.0,0,True,extrapolated
+1,Wet,13,8,1700–2100,1900,1140.0,3.7401574803149606,4.0,0,True,extrapolated
+1,Wet,13,9,2100–2500,2300,1380.0,4.52755905511811,4.0,0,True,extrapolated
+1,Wet,14,0,0–150,75,,,,0,True,infeasible
+1,Wet,14,1,150–300,225,,,,0,True,infeasible
+1,Wet,14,2,300–500,400,,,,0,True,infeasible
+1,Wet,14,3,500–700,600,,,,0,True,infeasible
+1,Wet,14,4,700–900,800,,,,0,True,infeasible
+1,Wet,14,5,900–1100,1000,,,,0,True,infeasible
+1,Wet,14,6,1100–1400,1250,538.8391099986117,1.76784484907681,5.0,0,True,extrapolated
+1,Wet,14,7,1400–1700,1550,930.0,3.0511811023622046,5.0,0,True,extrapolated
+1,Wet,14,8,1700–2100,1900,1140.0,3.7401574803149606,5.0,0,True,extrapolated
+1,Wet,14,9,2100–2500,2300,1380.0,4.52755905511811,5.0,0,True,extrapolated
