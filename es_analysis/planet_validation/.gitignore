@@ -1,0 +1,2 @@
+# Never commit the Planet API key
+.pl_api_key

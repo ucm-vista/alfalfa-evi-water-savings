@@ -29,6 +29,7 @@ es_analysis/            Python package
   charts/               ~70 plotting scripts (evi, beast, et_corrections, statistics, water_savings)
   runners/              entrypoints (run_alfalfa_run_2.py = versioned master, run_water_savings_sim.py, …)
   utils/                shared helpers (publication_style, units, run_output, …)
+  planet_validation/    PlanetScope cross-sensor validation of cut dates (+ bundled figures/CSVs)
   output/figures/       the two selected runs (everything else here is git-ignored)
 alfalfa_et_gdd5_pipeline.py   post-BEAST orchestrator (CLI: --action …)
 run_beast_parallel.py         BEAST ensemble runner (produces beast_outputs_new/)
@@ -86,13 +87,40 @@ python -m es_analysis.charts.water_savings.strategy_simulation
 python -m es_analysis.charts.water_savings.sensitivity_heatmap
 ```
 
+## PlanetScope cut-date validation
+
+Independent cross-sensor check of the BEAST cut dates against **PlanetScope** (~3 m, near-daily)
+EVI — code in [`es_analysis/planet_validation/`](es_analysis/planet_validation/). Needs a Planet
+**Education & Research** API key (`PL_API_KEY`; free for academics). Cloud-native and quota-safe:
+free metadata search + windowed cloud-optimised-GeoTIFF reads of **only each parcel** (no full
+scenes are downloaded).
+
+```bash
+export PL_API_KEY=...     # or add to .env, or es_analysis/planet_validation/.pl_api_key (git-ignored)
+
+# select 6 parcels (2 per county) and sample PlanetScope around each cut trough
+python -m es_analysis.planet_validation.select_parcels
+python -m es_analysis.planet_validation.run_planet_validation
+
+# the figures + CSVs are bundled; regenerate figures WITHOUT the API from saved data:
+python -m es_analysis.planet_validation.replot --all
+python -m es_analysis.planet_validation.overview_chart
+```
+
+Cut dates are the BEAST **troughs** (`matched_minima_iso`), matching the cuttings analysis. Result
+(WY2022, 6 parcels across San Joaquin / Kern / Imperial, 12 cut cycles): PlanetScope reproduces the
+cut troughs within **±5 days** (mean |offset| 2.4 d, median 2 d, bias −0.6 d, n=12). See the bundled
+`es_analysis/planet_validation/` outputs and Part 5 of
+`es_analysis/output/figures/alfalfa_run_6/revisions.md`.
+
 ## Notes
 
 - **BEAST/Rbeast**: `Rbeast`'s pip wheel bundles a compiled backend, so no separate R
   install is required. `run_beast_parallel.py` runs BEAST per `(county, water-year)` with
   auto-retry/backoff; it defaults to the `subproc` call mode to avoid native segfaults.
-- **Security**: the OpenET API key is read from `.env` / the environment only. If a key was
-  ever shared in the old repository, **rotate it**.
+- **Security**: the OpenET and Planet (`PL_API_KEY`) API keys are read from `.env` / the
+  environment / a git-ignored key file only — never stored in source. If a key was ever shared,
+  **rotate it**.
 - **Third-party material**: `Montazar et al. (2026)` is cited in the methods, not
   redistributed.
 

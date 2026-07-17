@@ -1,0 +1,14 @@
+region,county,UniqueID,cut_n,beast_trough_date,planet_trough_date,offset_days,hls_check_offset_days,planet_evi_drop,n_planet_dates,status
+north,San Joaquin,3901548,1.0,2022-05-04,2022-05-06,2.0,0,0.468,11,ok
+north,San Joaquin,3901548,2.0,2022-08-19,2022-08-23,4.0,5,0.411,8,ok
+north,San Joaquin,3902388,1.0,2022-04-14,2022-04-17,3.0,0,0.485,11,ok
+north,San Joaquin,3902388,2.0,2022-07-27,2022-07-25,-2.0,0,0.454,11,ok
+central,Kern,1501484,1.0,2022-05-03,2022-04-30,-3.0,0,0.418,11,ok
+central,Kern,1501484,2.0,2022-06-29,2022-06-26,-3.0,0,0.36,12,ok
+central,Kern,1507861,1.0,2022-04-13,2022-04-11,-2.0,0,0.415,9,ok
+central,Kern,1507861,2.0,2022-07-09,2022-07-10,1.0,0,0.527,11,ok
+south,Imperial,1300103,1.0,2022-05-02,2022-05-01,-1.0,0,0.353,11,ok
+south,Imperial,1300103,2.0,2022-07-11,2022-07-12,1.0,0,0.122,10,ok
+south,Imperial,1300275,1.0,2022-04-24,2022-04-21,-3.0,0,0.412,9,ok
+south,Imperial,1300275,2.0,2022-08-31,2022-08-27,-4.0,-3,0.048,11,ok
+ALL,,,,mean|offset|=2.4d,median|offset|=2d,-0.6,within±5d=100%,,125,summary

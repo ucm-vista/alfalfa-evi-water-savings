@@ -233,3 +233,90 @@ the next clear scene). Not a fixed window.
 `δ` is accumulated on a **daily** index (per off-phase day, summed across all cuttings), then
 aggregated to months by summation: `ET_corr(month) = Σ_days ET_open − Σ_days δ`, clipped at ≥ 0.
 Never a monthly-level approximation.
+
+---
+
+# Revisions — PlanetScope Independent Validation of Cut Dates
+
+Independent cross-sensor check of the BEAST-detected cutting dates using **PlanetScope**
+(~3 m, near-daily) EVI — a sensor entirely separate from the HLS (Harmonized Landsat–Sentinel-2)
+data the cut detection is built on. Code + outputs: `es_analysis/planet_validation/`.
+
+## Design
+- **Parcels:** 2 each in San Joaquin (north), Kern (central), Imperial (south), WY2022, selected
+  from the cuttings dataset behind `cuttings_analysis/*/boxplot_year_colored.png`
+  (`data/multicounty_matched.parquet`; `cut_match_ratio=1.0`, `n_cuttings` 4–8).
+- **Cut dates = TROUGHS only.** We validate the physical cut signature — the bare-field EVI
+  **minimum** (`matched_minima_iso`), not the pre-harvest peak change-points. 2 troughs/parcel → 12 windows.
+- **PlanetScope EVI:** same EVI formula as HLS (`2.5·(NIR−Red)/(NIR+6·Red−7.5·Blue+1)`), median over
+  each parcel's clear pixels, read cloud-native (windowed COG clips via GDAL `/vsicurl`; no full
+  scenes downloaded; free metadata search). Cloud filter matches the HLS EVI pipeline (scene ≤50%)
+  with a stricter per-parcel clear-pixel gate (≥85%, since PlanetScope's UDM2 mask is coarser).
+- **Metric:** PlanetScope post-cut EVI trough date − BEAST trough date (0 = perfect agreement).
+
+## Results — all 12 troughs confirmed within ±5 days
+| Region | County | Parcel | Cut | BEAST trough | PlanetScope trough | Offset (d) | EVI drop |
+|---|---|---|---|---|---|---|---|
+| North | San Joaquin | 3901548 | 1 | 2022-05-04 | 2022-05-06 | +2 | 0.47 |
+| North | San Joaquin | 3901548 | 2 | 2022-08-19 | 2022-08-23 | +4 | 0.41 |
+| North | San Joaquin | 3902388 | 1 | 2022-04-14 | 2022-04-17 | +3 | 0.49 |
+| North | San Joaquin | 3902388 | 2 | 2022-07-27 | 2022-07-25 | −2 | 0.45 |
+| Central | Kern | 1501484 | 1 | 2022-05-03 | 2022-04-30 | −3 | 0.42 |
+| Central | Kern | 1501484 | 2 | 2022-06-29 | 2022-06-26 | −3 | 0.36 |
+| Central | Kern | 1507861 | 1 | 2022-04-13 | 2022-04-11 | −2 | 0.42 |
+| Central | Kern | 1507861 | 2 | 2022-07-09 | 2022-07-10 | +1 | 0.53 |
+| South | Imperial | 1300103 | 1 | 2022-05-02 | 2022-05-01 | −1 | 0.35 |
+| South | Imperial | 1300103 | 2 | 2022-07-11 | 2022-07-12 | +1 | **0.12** (weak) |
+| South | Imperial | 1300275 | 1 | 2022-04-24 | 2022-04-21 | −3 | 0.41 |
+| South | Imperial | 1300275 | 2 | 2022-08-31 | 2022-08-27 | −4 | **0.05** (weak) |
+
+**Summary (125 PlanetScope observations):** mean |offset| = **2.4 d**, median |offset| = **2 d**,
+mean bias = **−0.6 d** (no systematic lag), **100% within ±5 d**.
+
+**Figures** (`planet_validation/figures/png/`):
+- **`cutdate_validation_overview.png`** — comprehensive summary figure: (a) dumbbell timeline of all 12
+  cuts (this-study date `|` vs PlanetScope date `●`, grouped/coloured by county; the two weak Imperial
+  cases shown open `○`); (b) 1:1 agreement scatter with the ±5 d band (mean |Δ| 2.4 d, median 2 d, bias
+  −0.6 d, 100% within ±5 d, n=12).
+- Best / worst exemplars: **`south_Imperial_1300103_cut1.png`** (−1 d) and
+  **`north_San_Joaquin_3901548_cut2.png`** (+4 d).
+- Per-cut overlays for all 12: `<region>_<county>_<parcel>_cut<n>.png` (HLS EVI curve, this-study cut
+  date, PlanetScope EVI + trough).
+
+Data: `planet_evi_points.csv` (per-observation), `validation_summary.csv` (per-cut + overall).
+
+## Figure captions
+**`cutdate_validation_overview.png` — Independent PlanetScope validation of BEAST-detected alfalfa
+cutting dates (WY2022; 6 parcels across San Joaquin, Kern, and Imperial counties).** (a) For each of
+the 12 cut cycles (rows, grouped and coloured by county), the this-study cut date (BEAST EVI trough;
+black tick) and the independently observed PlanetScope EVI-trough date (filled circle) are shown on a
+calendar axis; the connecting line is the day-offset between them. The two weak-signal Imperial
+late-season cases (per-cut EVI drop < 0.13) are drawn as open circles. (b) Agreement between the
+this-study and PlanetScope cut dates (day-of-year), with the 1:1 line and a ±5-day band; points are
+coloured by county (open = weak). All 12 cuts agree within ±5 days (mean absolute offset 2.4 d,
+median 2 d, bias −0.6 d; n = 12).
+
+**`south_Imperial_1300103_cut1.png` — Best-case validation example (Imperial County parcel 1300103,
+cut 1).** HLS EVI (smoothed line plus cloud-screened observations) defines the cut cycle; the
+this-study cut date (BEAST EVI trough; black line) is marked, and independent PlanetScope median-EVI
+observations (orange) trace the same post-cut trough. The PlanetScope trough (dashed) precedes the
+this-study cut date by 1 day (PlanetScope date − this-study cut date = −1 d).
+
+**`north_San_Joaquin_3901548_cut2.png` — Worst-case validation example (San Joaquin County parcel
+3901548, cut 2).** Panels as above; here the independent PlanetScope EVI trough follows the this-study
+cut date by 4 days (PlanetScope date − this-study cut date = +4 d) — the largest offset among the 12
+validated cuts, still within the ±5-day agreement band.
+
+## Caveats
+- **Two Imperial late-season cases are weak-signal** (parcel 1300103 cut 2 and 1300275 cut 2, EVI
+  drop <0.13): by mid/late summer these fields show almost no cut cycle (EVI ~0.14–0.21), so the
+  "trough" is near-noise. Both still land within ±5 d, but they are not strong confirmations —
+  consistent with Imperial County's known degraded signal (see CLAUDE.md).
+- PlanetScope and HLS differ spectrally, so absolute EVI differs; the validation is of trough
+  **timing**, not EVI magnitude. Across the other 10 cases the two sensors' EVI trajectories track
+  closely (e.g. Kern 1507861 cut 2).
+
+## Bottom line
+An independent 3 m, near-daily sensor reproduces the BEAST-detected alfalfa cut dates to within a
+few days (mean 2.4 d, no bias), across the north–south extent of the study area. The cut-date
+detection underpinning the ET and water-savings analyses is well supported by external data.
