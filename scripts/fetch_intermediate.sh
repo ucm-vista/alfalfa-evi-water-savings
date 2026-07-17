@@ -3,11 +3,11 @@
 # county-year EVI exports, and stat CSVs needed to rerun the downstream analysis
 # without the raw rebuild or the R/BEAST stage.
 #
-# EDIT THE URL below after publishing the Zenodo record.
+# Zenodo record: https://zenodo.org/records/21420387  (DOI 10.5281/zenodo.21420387)
 set -euo pipefail
 
 ROOT="${WORK_ROOT_REPO:-$(cd "$(dirname "$0")/.." && pwd)}"
-URL="${ALFALFA_INTERMEDIATE_URL:-https://zenodo.org/records/XXXXXXX/files/intermediate_data_v1.tar.gz}"
+URL="${ALFALFA_INTERMEDIATE_URL:-https://zenodo.org/records/21420387/files/intermediate_data_v1.tar.gz?download=1}"
 ARCHIVE="$ROOT/release_assets/intermediate_data_v1.tar.gz"
 
 if [[ "$URL" == *XXXXXXX* ]]; then
@@ -20,8 +20,8 @@ mkdir -p "$ROOT/release_assets"
 echo "Downloading intermediate data (~207 MB) -> $ARCHIVE"
 curl -L --fail -o "$ARCHIVE" "$URL"
 
-# Optional integrity check (see release_assets/MANIFEST.md for the published SHA256):
-# echo "<sha256>  $ARCHIVE" | sha256sum -c -
+# Integrity check:
+echo "13c72e7deac4947d6e45f394ceb0c15768147275371e88083e6055454bb5665e  $ARCHIVE" | sha256sum -c -
 
 echo "Extracting into $ROOT ..."
 # Paths inside the tarball are relative to the repo root.

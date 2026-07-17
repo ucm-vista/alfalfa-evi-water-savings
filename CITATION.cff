@@ -19,7 +19,7 @@ keywords:
 license: MIT
 version: "1.0.0"
 date-released: "2026-07-02"
-# doi: 10.5281/zenodo.XXXXXXX   # add after Zenodo release
+doi: 10.5281/zenodo.21420387   # dataset record (draft until published on Zenodo)
 references:
   - type: article
     authors:

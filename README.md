@@ -57,12 +57,21 @@ paths are baked into the code, and no API key is stored in source.
 
 ## Data
 
+Data archives are on Zenodo: **[10.5281/zenodo.21420387](https://doi.org/10.5281/zenodo.21420387)**
+(record [zenodo.org/records/21420387](https://zenodo.org/records/21420387)).
+
 - **Fast path (recommended)** — fetch the ~207 MB intermediate bundle (BEAST outputs +
   county-year EVI exports + stat CSVs) from Zenodo:
   ```bash
-  bash scripts/fetch_intermediate.sh    # fill in the URL after upload
+  bash scripts/fetch_intermediate.sh
   ```
   This lets you rerun the downstream analysis without the raw rebuild or the R/BEAST stage.
+- **Full processed data (optional, ~2.7 GB)** — the complete per-parcel tree (EVI
+  time-series CSVs, per-parcel GeoTIFFs + PNGs, JSON metadata) plus aggregate all-parcel
+  EVI time-series and the QC report:
+  ```bash
+  bash scripts/fetch_full_csv.sh
+  ```
 - **Repo-only path** — the `water_savings_sim_2` figures regenerate from the committed
   `alfalfa_run_6` outputs alone (no external data needed):
   ```bash
@@ -126,5 +135,5 @@ cut troughs within **±5 days** (mean |offset| 2.4 d, median 2 d, bias −0.6 d,
 
 ## Citation & license
 
-See [`CITATION.cff`](CITATION.cff) (Zenodo DOI added on release). Code is MIT
+See [`CITATION.cff`](CITATION.cff). Data DOI: [10.5281/zenodo.21420387](https://doi.org/10.5281/zenodo.21420387). Code is MIT
 ([`LICENSE`](LICENSE)).
