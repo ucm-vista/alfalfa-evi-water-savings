@@ -1,5 +1,8 @@
 # Alfalfa EVI Cutting Detection & Water-Savings Analysis
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21420387.svg)](https://doi.org/10.5281/zenodo.21420387)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Reproducible code and final results for a remote-sensing analysis of alfalfa in the
 California Central Valley (10 counties, water years 2019–2024). The workflow:
 
