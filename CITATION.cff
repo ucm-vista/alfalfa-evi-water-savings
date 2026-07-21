@@ -1,8 +1,12 @@
 cff-version: 1.2.0
-message: "If you use this software or the associated results, please cite it as below."
-title: "Alfalfa EVI cutting detection and water-savings analysis (Central Valley, CA)"
+message: "If you use this software, please cite it as below."
+title: "Alfalfa EVI cutting detection and water-savings analysis — reproduction data (California Central Valley, WY2019-2024)"
 type: software
 authors:
+  - family-names: Sarwar
+    given-names: Abid
+    email: asarwar@ucmerced.edu
+    affiliation: University of California, Merced
   - family-names: Silberman
     given-names: Eric
     email: esilberman@ucmerced.edu
@@ -18,8 +22,10 @@ keywords:
   - agriculture
 license: MIT
 version: "1.0.0"
-date-released: "2026-07-02"
-doi: 10.5281/zenodo.21420387   # published dataset record on Zenodo
+date-released: "2026-07-18"
+doi: 10.5281/zenodo.21420387
+url: "https://doi.org/10.5281/zenodo.21420387"
+repository-code: "https://github.com/ucm-vista/alfalfa-evi-water-savings"
 references:
   - type: article
     authors:
