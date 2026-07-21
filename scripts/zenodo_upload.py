@@ -27,9 +27,10 @@ FILES = [
 
 METADATA = {
     "upload_type": "dataset",
-    "title": ("Alfalfa EVI cutting detection and water-savings analysis "
-              "— reproduction data (California Central Valley, WY2019-2024)"),
+    "title": ("Detecting alfalfa cutting timing from satellite to verify "
+              "late-season water-saving opportunities in California"),
     "creators": [
+        {"name": "Sarwar, Abid", "affiliation": "University of California, Merced"},
         {"name": "Silberman, Eric", "affiliation": "University of California, Merced"},
     ],
     "description": (

@@ -140,6 +140,6 @@ cut troughs within **±5 days** (mean |offset| 2.4 d, median 2 d, bias −0.6 d,
 
 If you use this software, please cite it as:
 
-> Sarwar, A., & Silberman, E. (2026). *Alfalfa EVI cutting detection and water-savings analysis — reproduction data (California Central Valley, WY2019-2024)* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21420387
+> Sarwar, A., & Silberman, E. (2026). *Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21420387
 
 Machine-readable metadata is in [`CITATION.cff`](CITATION.cff). Code is MIT ([`LICENSE`](LICENSE)).

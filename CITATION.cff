@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "Alfalfa EVI cutting detection and water-savings analysis — reproduction data (California Central Valley, WY2019-2024)"
+title: "Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California"
 type: software
 authors:
   - family-names: Sarwar
