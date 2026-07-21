@@ -1,4 +1,4 @@
-# Alfalfa EVI Cutting Detection & Water-Savings Analysis
+# Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21420387.svg)](https://doi.org/10.5281/zenodo.21420387)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
