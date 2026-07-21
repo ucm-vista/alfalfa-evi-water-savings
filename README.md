@@ -151,6 +151,13 @@ same Zenodo record (https://doi.org/10.5281/zenodo.21420386) as `intermediate_da
 re-downloadable from their original providers; see [`data/README.md`](data/README.md) for
 provenance and access.
 
+**Licensing.** The **source code** (this repository and the archived `…-1.1.0.zip`) is released
+under the **MIT license** ([`LICENSE`](LICENSE)). The **data archives**
+(`intermediate_data_v1.tar.gz`, `analysis_full_v1.tar.gz`) are released under **CC-BY 4.0**.
+Software and data are licensed separately by design: a permissive open-source license (MIT) for
+code and a Creative Commons attribution license (CC-BY 4.0) for data, following AGU / Earth's
+Future open-research guidance.
+
 ## Citation & license
 
 If you use this software, please cite it as (APA):

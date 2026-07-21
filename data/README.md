@@ -4,6 +4,10 @@ Large inputs are not committed. Everything resolves from `$WORK_ROOT` (default
 `/home/jovyan/work`), which must contain `emery_method/`, `emery_method_2/`, and
 `shapefile/`. Set `WORK_ROOT` in `.env` if your layout differs.
 
+**Data license.** The Zenodo-archived data products (`intermediate_data_v1.tar.gz`,
+`analysis_full_v1.tar.gz`) are released under **CC-BY 4.0**. The analysis *code* is licensed
+separately under MIT (see the repository [`LICENSE`](../LICENSE)).
+
 ## Two tiers
 
 ### 1. Intermediate data (~207 MB) — Zenodo bundle (recommended)
