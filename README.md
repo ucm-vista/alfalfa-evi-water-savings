@@ -1,6 +1,7 @@
 # Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21420386.svg)](https://doi.org/10.5281/zenodo.21420386)
+[![Software DOI](https://img.shields.io/badge/Software%20DOI-10.5281%2Fzenodo.21480209-blue.svg)](https://doi.org/10.5281/zenodo.21480209)
+[![Data DOI](https://img.shields.io/badge/Data%20DOI-10.5281%2Fzenodo.21420386-blue.svg)](https://doi.org/10.5281/zenodo.21420386)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Reproducible code and final results for a remote-sensing analysis of alfalfa in the
@@ -60,8 +61,12 @@ paths are baked into the code, and no API key is stored in source.
 
 ## Data
 
-Code and data archives are on Zenodo: **[10.5281/zenodo.21420386](https://doi.org/10.5281/zenodo.21420386)**
-(concept DOI — always resolves to the latest version).
+The data and the software are archived as **two separate, cross-linked Zenodo records**:
+
+- **Data** (CC-BY-4.0): **[10.5281/zenodo.21420386](https://doi.org/10.5281/zenodo.21420386)** — the two data archives below.
+- **Software** (MIT): **[10.5281/zenodo.21480209](https://doi.org/10.5281/zenodo.21480209)** — this repository, archived as a `.zip`.
+
+Both concept DOIs always resolve to their latest version, and each record links to the other and to this GitHub repository.
 
 - **Fast path (recommended)** — fetch the ~207 MB intermediate bundle (BEAST outputs +
   county-year EVI exports + stat CSVs) from Zenodo:
@@ -141,27 +146,32 @@ cut troughs within **±5 days** (mean |offset| 2.4 d, median 2 d, bias −0.6 d,
 **Software.** The analysis software developed for this study — *Detecting alfalfa cutting timing
 from satellite to verify late-season water-saving opportunities in California* (Version 1.1.0) —
 is openly developed on GitHub (https://github.com/ucm-vista/alfalfa-evi-water-savings) under the
-MIT license and is archived on Zenodo at https://doi.org/10.5281/zenodo.21420386 (Sarwar &
-Silberman, 2026).
+**MIT** license and is archived on Zenodo at **https://doi.org/10.5281/zenodo.21480209**
+(Sarwar & Silberman, 2026).
 
 **Data.** The reproduction datasets (BEAST cutting-detection outputs, county/water-year EVI
-exports, statistics tables, and the full processed per-parcel analysis tree) are archived in the
-same Zenodo record (https://doi.org/10.5281/zenodo.21420386) as `intermediate_data_v1.tar.gz` and
-`analysis_full_v1.tar.gz`. Raw satellite inputs (HLS EVI, Daymet, OpenET) are publicly
-re-downloadable from their original providers; see [`data/README.md`](data/README.md) for
-provenance and access.
+exports, statistics tables, and the full processed per-parcel analysis tree) are archived as a
+**separate** Zenodo record under **CC-BY 4.0** at **https://doi.org/10.5281/zenodo.21420386**
+(`intermediate_data_v1.tar.gz` and `analysis_full_v1.tar.gz`). Raw satellite inputs (HLS EVI,
+Daymet, OpenET) are publicly re-downloadable from their original providers; see
+[`data/README.md`](data/README.md) for provenance and access.
 
-**Licensing.** The **source code** (this repository and the archived `…-1.1.0.zip`) is released
-under the **MIT license** ([`LICENSE`](LICENSE)). The **data archives**
-(`intermediate_data_v1.tar.gz`, `analysis_full_v1.tar.gz`) are released under **CC-BY 4.0**.
-Software and data are licensed separately by design: a permissive open-source license (MIT) for
-code and a Creative Commons attribution license (CC-BY 4.0) for data, following AGU / Earth's
-Future open-research guidance.
+The two Zenodo records and this GitHub repository are mutually cross-linked (each record's
+related-identifiers point to the other record's DOI and to the repository).
+
+**Licensing.** The **source code** (this repository / the archived `.zip`) is released under the
+**MIT license** ([`LICENSE`](LICENSE)); the **data archives** are released under **CC-BY 4.0**.
+Software and data are licensed and deposited separately by design, following AGU / Earth's Future
+open-research guidance.
 
 ## Citation & license
 
-If you use this software, please cite it as (APA):
+If you use this work, please cite the **software** and the **data** separately (APA):
 
-> Sarwar, A., & Silberman, E. (2026). *Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California* (Version 1.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21420386
+**Software:**
+> Sarwar, A., & Silberman, E. (2026). *Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California* (Version 1.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21480209
+
+**Data:**
+> Sarwar, A., & Silberman, E. (2026). *Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California — reproduction data* (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21420386
 
 Machine-readable metadata is in [`CITATION.cff`](CITATION.cff). Code is MIT ([`LICENSE`](LICENSE)).

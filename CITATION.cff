@@ -23,10 +23,21 @@ keywords:
 license: MIT
 version: "1.1.0"
 date-released: "2026-07-21"
-doi: 10.5281/zenodo.21420386
-url: "https://doi.org/10.5281/zenodo.21420386"
+doi: 10.5281/zenodo.21480209
+url: "https://doi.org/10.5281/zenodo.21480209"
 repository-code: "https://github.com/ucm-vista/alfalfa-evi-water-savings"
 references:
+  # Companion dataset (archived separately on Zenodo, CC-BY-4.0)
+  - type: dataset
+    title: "Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California — reproduction data"
+    authors:
+      - family-names: Sarwar
+        given-names: Abid
+      - family-names: Silberman
+        given-names: Emery
+    version: "1.0.0"
+    year: 2026
+    doi: 10.5281/zenodo.21420386
   - type: article
     authors:
       - family-names: Montazar
