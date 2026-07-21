@@ -26,20 +26,23 @@ FILES = [
 ]
 
 METADATA = {
-    "upload_type": "dataset",
+    "upload_type": "software",
     "title": ("Detecting alfalfa cutting timing from satellite to verify "
               "late-season water-saving opportunities in California"),
     "creators": [
         {"name": "Sarwar, Abid", "affiliation": "University of California, Merced"},
-        {"name": "Silberman, Eric", "affiliation": "University of California, Merced"},
+        {"name": "Silberman, Emery", "affiliation": "University of California, Merced"},
     ],
     "description": (
-        "<p>Reproduction data for the alfalfa EVI cutting-detection and irrigation "
-        "water-savings analysis over the California Central Valley (10 counties, water "
-        "years 2019-2024). Code: "
+        "<p>Software and reproduction data for the alfalfa EVI cutting-detection and "
+        "irrigation water-savings analysis over the California Central Valley (10 counties, "
+        "water years 2019-2024). Development platform: "
         "<a href=\"https://github.com/ucm-vista/alfalfa-evi-water-savings\">"
-        "github.com/ucm-vista/alfalfa-evi-water-savings</a>.</p>"
-        "<p>Two archives:</p><ul>"
+        "github.com/ucm-vista/alfalfa-evi-water-savings</a> (MIT license).</p>"
+        "<p>Files:</p><ul>"
+        "<li><b>alfalfa-evi-water-savings-1.1.0.zip</b> &mdash; the full source repository "
+        "(the es_analysis package, BEAST + pipeline drivers, and the two selected result "
+        "runs), archived byte-for-byte from the GitHub v1.1.0 release.</li>"
         "<li><b>intermediate_data_v1.tar.gz</b> (~207 MB unpacked) &mdash; BEAST "
         "cutting-detection outputs, per-county/water-year EVI exports, and statistics "
         "tables. The minimum needed to reproduce every downstream figure/table "
@@ -48,14 +51,14 @@ METADATA = {
         "processed per-parcel analysis tree (EVI time-series CSVs, per-parcel "
         "GeoTIFFs and PNG renders, JSON metadata) plus aggregate all-parcel EVI "
         "time-series and QC report.</li></ul>"
-        "<p>Unpack each with <code>tar -xzf &lt;file&gt; -C &lt;repo root&gt;</code>. "
+        "<p>Unpack the tarballs with <code>tar -xzf &lt;file&gt; -C &lt;repo root&gt;</code>. "
         "Raw satellite inputs (HLS EVI, Daymet, OpenET) are re-downloadable from source "
         "and are not included. Cutting events are detected with BEAST (Rbeast) on HLS "
         "EVI; ET is from OpenET.</p>"
     ),
     "access_right": "open",
     "license": "cc-by-4.0",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "language": "eng",
     "keywords": ["alfalfa", "EVI", "BEAST change-point detection", "evapotranspiration",
                  "OpenET", "water savings", "remote sensing", "agriculture",

@@ -1,6 +1,6 @@
 # Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21420387.svg)](https://doi.org/10.5281/zenodo.21420387)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21420386.svg)](https://doi.org/10.5281/zenodo.21420386)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Reproducible code and final results for a remote-sensing analysis of alfalfa in the
@@ -60,8 +60,8 @@ paths are baked into the code, and no API key is stored in source.
 
 ## Data
 
-Data archives are on Zenodo: **[10.5281/zenodo.21420387](https://doi.org/10.5281/zenodo.21420387)**
-(record [zenodo.org/records/21420387](https://zenodo.org/records/21420387)).
+Code and data archives are on Zenodo: **[10.5281/zenodo.21420386](https://doi.org/10.5281/zenodo.21420386)**
+(concept DOI — always resolves to the latest version).
 
 - **Fast path (recommended)** — fetch the ~207 MB intermediate bundle (BEAST outputs +
   county-year EVI exports + stat CSVs) from Zenodo:
@@ -136,10 +136,25 @@ cut troughs within **±5 days** (mean |offset| 2.4 d, median 2 d, bias −0.6 d,
 - **Third-party material**: `Montazar et al. (2026)` is cited in the methods, not
   redistributed.
 
+## Open Research
+
+**Software.** The analysis software developed for this study — *Detecting alfalfa cutting timing
+from satellite to verify late-season water-saving opportunities in California* (Version 1.1.0) —
+is openly developed on GitHub (https://github.com/ucm-vista/alfalfa-evi-water-savings) under the
+MIT license and is archived on Zenodo at https://doi.org/10.5281/zenodo.21420386 (Sarwar &
+Silberman, 2026).
+
+**Data.** The reproduction datasets (BEAST cutting-detection outputs, county/water-year EVI
+exports, statistics tables, and the full processed per-parcel analysis tree) are archived in the
+same Zenodo record (https://doi.org/10.5281/zenodo.21420386) as `intermediate_data_v1.tar.gz` and
+`analysis_full_v1.tar.gz`. Raw satellite inputs (HLS EVI, Daymet, OpenET) are publicly
+re-downloadable from their original providers; see [`data/README.md`](data/README.md) for
+provenance and access.
+
 ## Citation & license
 
-If you use this software, please cite it as:
+If you use this software, please cite it as (APA):
 
-> Sarwar, A., & Silberman, E. (2026). *Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21420387
+> Sarwar, A., & Silberman, E. (2026). *Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California* (Version 1.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21420386
 
 Machine-readable metadata is in [`CITATION.cff`](CITATION.cff). Code is MIT ([`LICENSE`](LICENSE)).
