@@ -143,26 +143,12 @@ cut troughs within **±5 days** (mean |offset| 2.4 d, median 2 d, bias −0.6 d,
 
 ## Open Research
 
-**Software.** The analysis software developed for this study — *Detecting alfalfa cutting timing
-from satellite to verify late-season water-saving opportunities in California* (Version 1.1.0) —
-is openly developed on GitHub (https://github.com/ucm-vista/alfalfa-evi-water-savings) under the
-**MIT** license and is archived on Zenodo at **https://doi.org/10.5281/zenodo.21480209**
-(Sarwar & Silberman, 2026).
+- **Software** (MIT) — archived at [10.5281/zenodo.21480209](https://doi.org/10.5281/zenodo.21480209); developed in this repository.
+- **Data** (CC-BY 4.0) — archived separately at [10.5281/zenodo.21420386](https://doi.org/10.5281/zenodo.21420386) (`intermediate_data_v1.tar.gz`, `analysis_full_v1.tar.gz`).
 
-**Data.** The reproduction datasets (BEAST cutting-detection outputs, county/water-year EVI
-exports, statistics tables, and the full processed per-parcel analysis tree) are archived as a
-**separate** Zenodo record under **CC-BY 4.0** at **https://doi.org/10.5281/zenodo.21420386**
-(`intermediate_data_v1.tar.gz` and `analysis_full_v1.tar.gz`). Raw satellite inputs (HLS EVI,
-Daymet, OpenET) are publicly re-downloadable from their original providers; see
-[`data/README.md`](data/README.md) for provenance and access.
-
-The two Zenodo records and this GitHub repository are mutually cross-linked (each record's
-related-identifiers point to the other record's DOI and to the repository).
-
-**Licensing.** The **source code** (this repository / the archived `.zip`) is released under the
-**MIT license** ([`LICENSE`](LICENSE)); the **data archives** are released under **CC-BY 4.0**.
-Software and data are licensed and deposited separately by design, following AGU / Earth's Future
-open-research guidance.
+The two Zenodo records and this repository are mutually cross-linked. Raw satellite inputs
+(HLS EVI, OpenET, Daymet) come from their original providers — see [`data/README.md`](data/README.md).
+The manuscript's full Open Research / availability statement carries the complete detail.
 
 ## Citation & license
 
