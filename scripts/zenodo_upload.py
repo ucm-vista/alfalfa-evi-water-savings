@@ -48,9 +48,9 @@ METADATA = {
         "<a href=\"https://github.com/ucm-vista/alfalfa-evi-water-savings\">"
         "github.com/ucm-vista/alfalfa-evi-water-savings</a>.</p>"
         "<p>This record archives:</p><ul>"
-        "<li><b>alfalfa-evi-water-savings-1.1.0.zip</b> &mdash; the full source repository "
+        "<li><b>alfalfa-evi-water-savings-1.2.0.zip</b> &mdash; the full source repository "
         "(the es_analysis Python package, BEAST + pipeline drivers, and the two selected "
-        "result runs), archived byte-for-byte from the GitHub v1.1.0 release.</li>"
+        "result runs), archived byte-for-byte from the GitHub v1.2.0 release.</li>"
         "<li><b>intermediate_data_v1.tar.gz</b> (~207 MB unpacked) &mdash; BEAST "
         "cutting-detection outputs, per-county/water-year EVI exports, and statistics "
         "tables. The minimum needed to reproduce every downstream figure/table "
@@ -69,7 +69,7 @@ METADATA = {
     ),
     "access_right": "open",
     "license": "cc-by-4.0",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "language": "eng",
     "keywords": ["alfalfa", "EVI", "BEAST change-point detection", "evapotranspiration",
                  "OpenET", "water savings", "remote sensing", "agriculture",

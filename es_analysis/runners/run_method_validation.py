@@ -1,12 +1,11 @@
-"""Runner: Method validation and robustness analysis (Phase 4).
+"""Runner: Method validation (Phase 4).
 
 Usage:
     python -m es_analysis.runners.run_method_validation [options]
 
-Runs three analyses:
-1. Method A vs B comparison (correction method selection evidence)
-2. Sensitivity analysis (OAT parameter sweep across 5 parameters)
-3. Economic breakeven analysis (when to skip last cutting)
+Runs the Method A vs B comparison (ET-correction method selection evidence).
+(The earlier OAT sensitivity sweep and economic-breakeven analyses were removed
+with the simulation layer.)
 
 All outputs saved to es_analysis/output/method_validation/.
 """
@@ -192,82 +191,9 @@ def main() -> int:
             print(f"\n  [skipped] Method A vs B comparison")
 
         # ---------------------------------------------------------------
-        # 2. Sensitivity analysis
-        # ---------------------------------------------------------------
-        if not args.skip_sensitivity:
-            print(f"\n{'='*60}")
-            print("SECTION 2: SENSITIVITY ANALYSIS")
-            print(f"{'='*60}")
-
-            from ..data_providers.sensitivity_provider import (
-                run_sensitivity_analysis,
-            )
-
-            sens_result = run_sensitivity_analysis(
-                n_boot=args.n_boot_sensitivity,
-                max_uids_per_county_wy=args.max_uids,
-                out_dir=sensitivity_dir,
-                dpi=args.dpi,
-                max_workers=workers,
-            )
-
-            results_df = sens_result["results_df"]
-            impact = sens_result["impact"]
-
-            # Export impact summary as CSV
-            impact_rows = [
-                {"parameter": p, "max_abs_pct_change": v}
-                for p, v in sorted(impact.items(), key=lambda x: -x[1])
-            ]
-            _export_csv(
-                pd.DataFrame(impact_rows),
-                sensitivity_dir / "sensitivity_impact.csv",
-                "Sensitivity impact summary",
-            )
-
-            print(f"\n  Impact summary (sorted by largest impact):")
-            for row in impact_rows:
-                print(f"    {row['parameter']:30s}: "
-                      f"{row['max_abs_pct_change']:+.2f}%")
-        else:
-            print(f"\n  [skipped] Sensitivity analysis")
-
-        # ---------------------------------------------------------------
-        # 3. Breakeven analysis
-        # ---------------------------------------------------------------
-        if not args.skip_breakeven:
-            print(f"\n{'='*60}")
-            print("SECTION 3: BREAKEVEN ECONOMICS")
-            print(f"{'='*60}")
-
-            from ..data_providers.breakeven_provider import (
-                run_breakeven_analysis,
-            )
-
-            late_water_csv = Path(args.late_water_csv) if args.late_water_csv else None
-
-            be_result = run_breakeven_analysis(
-                late_water_csv=late_water_csv,
-                out_dir=breakeven_dir,
-                dpi=args.dpi,
-            )
-
-            kern_et_stats = be_result["kern_et_stats"]
-            breakeven_table = be_result["breakeven_table"]
-
-            # Export kern ET summary as CSV
-            _export_csv(
-                kern_et_stats,
-                breakeven_dir / "kern_et_summary.csv",
-                "Kern ET summary",
-            )
-
-            print(f"\n  Breakeven summary:")
-            print(f"    Kern parcels:    {be_result['n_kern_parcels']}")
-            print(f"    Median ET:       {kern_et_stats['median']:.4f} ac-ft/acre")
-            print(f"    Scenarios:       {len(breakeven_table)}")
-        else:
-            print(f"\n  [skipped] Breakeven analysis")
+        # (Sensitivity and economic-breakeven analyses removed with the
+        #  simulation layer; this runner now performs only the Method A/B
+        #  ET-correction comparison.)
 
         # ---------------------------------------------------------------
         # Final summary
@@ -281,8 +207,6 @@ def main() -> int:
 
         for label, subdir in [
             ("Comparison", comparison_dir),
-            ("Sensitivity", sensitivity_dir),
-            ("Breakeven", breakeven_dir),
         ]:
             n_csv = len(list(subdir.glob("*.csv")))
             n_png = len(list(subdir.glob("*.png")))

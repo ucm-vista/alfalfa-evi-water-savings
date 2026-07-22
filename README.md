@@ -11,19 +11,20 @@ California Central Valley (10 counties, water years 2019–2024). The workflow:
    using **BEAST** (Bayesian Estimator of Abrupt change, Seasonality and Trend; the
    `Rbeast` package) in a consensus/ensemble configuration.
 2. **ET correction** — correct **OpenET** actual-ET for off-phase (post-cutting) periods.
-3. **Water-savings simulation** — estimate irrigation water saved by delaying the last
-   summer cutting, per parcel-year, with sensitivity and strategy simulations.
+3. **Water-savings estimation** — for each parcel-year, estimate the irrigation water
+   saved by removing late-season cuttings after a July-1 cutoff: `S = n_remove × e_cut`
+   (number of late cuts removed × observed ET per late cut), under cap-0 (remove all late
+   cuts) and cap-1 (allow one) scenarios. A cutoff-date sensitivity analysis sweeps the
+   cutoff date by county.
 
-Core savings model (see `es_analysis/output/figures/water_savings_sim_2/model_specification.md`):
-`S = min(n_remove × e_cut, 0.55 × ET)`, cutoff date July 1; ~10,220 parcel-years,
-1,791 parcels, 10 counties.
+~10,220 parcel-years, 1,791 parcels, 10 counties.
 
 ## Final selected outputs (in this repo)
 
 | Run | What it is |
 |-----|-----------|
-| `es_analysis/output/figures/alfalfa_run_6/` | Selected full analysis run — cuttings, ET-correction, water-savings tables + figures, WY-type stats, and 18 machine-readable `data/*.parquet`. |
-| `es_analysis/output/figures/water_savings_sim_2/` | Selected strategy/sensitivity simulation figures (Fig 5–9) + companion CSVs + 3 markdown method specs. |
+| `es_analysis/output/figures/alfalfa_run_6/` | Selected full analysis run — cuttings, ET-correction, per-parcel water-savings tables + figures, WY-type stats, and 18 machine-readable `data/*.parquet`. |
+| `es_analysis/output/figures/water_savings_sim_2/` | Cutoff-date sensitivity figures + `cutoff_county_grid` CSVs. |
 
 ## Repository layout
 
@@ -31,7 +32,7 @@ Core savings model (see `es_analysis/output/figures/water_savings_sim_2/model_sp
 es_analysis/            Python package
   data_providers/       data loading/transform (config.py, beast_provider.py, et_provider.py, …)
   charts/               ~70 plotting scripts (evi, beast, et_corrections, statistics, water_savings)
-  runners/              entrypoints (run_alfalfa_run_2.py = versioned master, run_water_savings_sim.py, …)
+  runners/              entrypoints (run_alfalfa_run_2.py = versioned master, run_water_savings_plots.py, …)
   utils/                shared helpers (publication_style, units, run_output, …)
   planet_validation/    PlanetScope cross-sensor validation of cut dates (+ bundled figures/CSVs)
   output/figures/       the two selected runs (everything else here is git-ignored)
@@ -80,10 +81,10 @@ Both concept DOIs always resolve to their latest version, and each record links 
   ```bash
   bash scripts/fetch_full_csv.sh
   ```
-- **Repo-only path** — the `water_savings_sim_2` figures regenerate from the committed
-  `alfalfa_run_6` outputs alone (no external data needed):
+- **Repo-only path** — the water-savings bar/heatmap figures regenerate from the committed
+  `alfalfa_run_6` savings CSVs (no external data needed):
   ```bash
-  python -m es_analysis.charts.water_savings.strategy_simulation
+  python -m es_analysis.runners.run_water_savings_plots --all --run-name alfalfa_run_6
   ```
 - **Full raw rebuild** — see [`data/README.md`](data/README.md) for provenance and how to
   obtain EVI (1.7 GB), OpenET, Daymet (11 GB), and the DWR crop-mapping / parcel shapefiles.
@@ -99,9 +100,9 @@ python run_beast_parallel.py --max-concurrent 4 --n-jobs 32
 python alfalfa_et_gdd5_pipeline.py --action run_versioned --run-name alfalfa_run_6 \
        --et-mode actual --class-mode sji
 
-# 3. Simulation figures -> es_analysis/output/figures/water_savings_sim_2/
-python -m es_analysis.charts.water_savings.strategy_simulation
-python -m es_analysis.charts.water_savings.sensitivity_heatmap
+# 3. Water-savings figures (bar/heatmap + cutoff-date sensitivity)
+python -m es_analysis.runners.run_water_savings_plots --all --run-name alfalfa_run_6
+python -m es_analysis.runners.run_water_savings_plots --cutoff --run-name alfalfa_run_6
 ```
 
 ## PlanetScope cut-date validation
@@ -155,7 +156,7 @@ The manuscript's full Open Research / availability statement carries the complet
 If you use this work, please cite the **software** and the **data** separately (APA):
 
 **Software:**
-> Sarwar, A., & Silberman, E. (2026). *Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California* (Version 1.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21480209
+> Sarwar, A., & Silberman, E. (2026). *Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California* (Version 1.2.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21480209
 
 **Data:**
 > Sarwar, A., & Silberman, E. (2026). *Detecting alfalfa cutting timing from satellite to verify late-season water-saving opportunities in California — reproduction data* (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21420386

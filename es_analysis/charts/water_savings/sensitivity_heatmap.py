@@ -1635,27 +1635,14 @@ if __name__ == "__main__":
         / "output" / "figures" / "water_savings_sim_2"
     )
 
-    df_sav = pd.read_csv(data_dir / "late_cut_savings_parcel_year_mm.csv")
     df_base = pd.read_csv(data_dir / "late_cut_base_parcel_year.csv")
 
-    # Figure 1: ET sensitivity (observed + model)
-    print("=== Figure 1: ET Sensitivity ===")
-    _, _, s1 = sensitivity_heatmap(df_sav, df_base, out_dir=out)
-    print(f"  Cells: {s1['n_cells']} (empirical: {s1['n_empirical']}, "
-          f"model: {s1['n_model_filled']}, masked: {s1['n_masked']})")
-
-    # Figure 2: Cutoff sensitivity (observed + literature-adjusted)
-    print("\n=== Figure 2: Cutoff Sensitivity ===")
+    # Cutoff-date sensitivity (observed + literature-adjusted)
+    print("=== Cutoff Sensitivity ===")
     _, _, s2 = cutoff_sensitivity_figure(df_base, out_dir=out)
     print(f"  Cells: {s2['n_cells']} (non-sparse: {s2['n_non_sparse']})")
 
-    # Figure 3: ET sensitivity (model-only)
-    print("\n=== Figure 3: ET Sensitivity (Modeled) ===")
-    _, _, s3 = sensitivity_heatmap_modeled(df_sav, df_base, out_dir=out)
-    print(f"  Cells: {s3['n_cells']} (filled: {s3['n_filled']}, "
-          f"masked: {s3['n_masked']})")
-
-    # Figure 4: Cutoff sensitivity (model-only)
-    print("\n=== Figure 4: Cutoff Sensitivity (Modeled) ===")
+    # Cutoff-date sensitivity (model-only)
+    print("\n=== Cutoff Sensitivity (Modeled) ===")
     _, _, s4 = cutoff_sensitivity_modeled(df_base, out_dir=out)
     print(f"  Cells: {s4['n_cells']}")

@@ -525,7 +525,6 @@ def polish_existing_figures(out_dir, dpi=300):
         load_parcel_year_data,
         run_all_statistical_tests,
     )
-    from ..data_providers.breakeven_provider import run_breakeven_analysis
 
     _apply_style()
     polished_dir = Path(out_dir) / "polished"
@@ -599,29 +598,7 @@ def polish_existing_figures(out_dir, dpi=300):
         except Exception as e:
             print(f"  WARNING: Phase 3 polish failed ({e}), skipping")
 
-    # --- Phase 4: breakeven surface only (sensitivity is slow) ---
-    print("  [polish] Phase 4 breakeven plot...")
-    try:
-        _captured_figs.clear()
-        plt.close = _capture_close
-        try:
-            be_result = run_breakeven_analysis(
-                out_dir=polished_dir,
-                dpi=dpi,
-            )
-        finally:
-            plt.close = _real_close
-        for fig in _captured_figs:
-            save_pub_figure(fig, "breakeven_surface", out_dir, dpi)
-        _captured_figs.clear()
-        be_plot = polished_dir / "breakeven_surface.png"
-        if be_plot.exists():
-            outputs.append(be_plot)
-        print(f"  [polish] Phase 4 breakeven: saved to {polished_dir}")
-    except FileNotFoundError as e:
-        print(f"  WARNING: Phase 4 breakeven data not found ({e}), skipping")
-    except Exception as e:
-        print(f"  WARNING: Phase 4 breakeven polish failed ({e}), skipping")
+    # (Phase 4 breakeven-surface figure removed with the simulation layer.)
 
     print(f"  [polish] Total polished: {len(outputs)} figures")
     return outputs

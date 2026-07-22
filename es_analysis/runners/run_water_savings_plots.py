@@ -217,25 +217,7 @@ def run_aggregate_plots(
     except Exception as e:
         print(f"  FAILED: {e}")
 
-    # 7. Sensitivity heatmap (ET x cuttings x WY type)
-    print("\n--- Sensitivity Heatmap ---")
-    try:
-        from es_analysis.charts.water_savings.sensitivity_heatmap import (
-            sensitivity_heatmap as sens_heatmap,
-        )
-        df_sav = _load_savings_csv(data_dir=data_dir)
-        df_base = _load_base_csv(data_dir=data_dir)
-        _, _, summary = sens_heatmap(
-            df_sav, df_base, cap_values=(0, 1), out_dir=out_dir,
-        )
-        results.append(("sensitivity_heatmap", summary))
-        print(f"  Cells: {summary['n_cells']} "
-              f"(empirical: {summary['n_empirical']}, "
-              f"model: {summary['n_model_filled']})")
-    except Exception as e:
-        print(f"  FAILED: {e}")
-
-    # 8. Cutoff-date sensitivity (county x cutoff x WY type)
+    # 7. Cutoff-date sensitivity (county x cutoff x WY type)
     print("\n--- Cutoff Sensitivity ---")
     try:
         from es_analysis.charts.water_savings.sensitivity_heatmap import (
@@ -275,8 +257,8 @@ def main():
                         help="Late ET share chart only")
     parser.add_argument("--all-counties", action="store_true",
                         help="All-counties savings bar (cap0/cap1)")
-    parser.add_argument("--sensitivity", action="store_true",
-                        help="Sensitivity heatmap (ET x cuttings x WY type)")
+    parser.add_argument("--cutoff", action="store_true",
+                        help="Cutoff-date sensitivity figure (county x cutoff x WY type)")
     parser.add_argument("--et-mode", type=str, default="actual",
                         choices=["actual", "corrected", "both"],
                         help="ET mode (default: actual)")
@@ -307,7 +289,7 @@ def main():
     data_dir = Path(args.data_dir) if args.data_dir else None
 
     do_all = args.aggregate or args.all
-    any_specific = args.cap_comparison or args.frequency or args.heatmap or args.by_wy or args.et_share or args.all_counties or args.sensitivity
+    any_specific = args.cap_comparison or args.frequency or args.heatmap or args.by_wy or args.et_share or args.all_counties or args.cutoff
 
     if not do_all and not any_specific:
         parser.error("Specify --aggregate, --all, or specific chart flags")
@@ -363,18 +345,17 @@ def main():
             _, _, s = savings_by_all_counties_bar(df, cap_values=(0, 1), et_mode=args.et_mode, out_dir=out_dir)
             print(f"All-counties: {s.get('cap0_by_county', {})}")
 
-        if args.sensitivity:
+        if args.cutoff:
             from es_analysis.charts.water_savings.sensitivity_heatmap import (
-                sensitivity_heatmap as sens_heatmap,
+                cutoff_sensitivity_figure,
             )
             df_sav = _load_savings_csv(data_dir=data_dir)
             df_base = _load_base_csv(data_dir=data_dir)
-            _, _, s = sens_heatmap(
-                df_sav, df_base, cap_values=(0, 1), out_dir=out_dir,
+            _, _, s = cutoff_sensitivity_figure(
+                df_base, df_savings=df_sav, out_dir=out_dir,
             )
-            print(f"Sensitivity: {s['n_cells']} cells "
-                  f"(empirical: {s['n_empirical']}, "
-                  f"model: {s['n_model_filled']})")
+            print(f"Cutoff sensitivity: {s['n_cells']} cells "
+                  f"(non-sparse: {s['n_non_sparse']})")
 
     print("\nDone.")
 
